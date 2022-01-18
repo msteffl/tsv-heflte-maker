@@ -10,6 +10,7 @@ export const HEADER = "hdr#";
 export async function downloadImage(url: string, fileName: string) {
   const path = Path.resolve(IMAGE_PATH, fileName);
   if (!Fs.existsSync(path)) {
+    console.log('Download image ' + url)
     const writer = Fs.createWriteStream(path);
 
     const response = await axios.create()({

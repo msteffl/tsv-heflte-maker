@@ -9,25 +9,38 @@ export const OUTPUT_PATH = __dirname + "/output"
 
 const csvOptions = {
   delimiter: "|",
-  header: false
+  header: false,
+  doubleQuote: "x"
 }
 
-
-const fupaStats: FupaStatistics = new FupaStatistics([{team: 'erste', type: 'statistik', 'url': 'https://fussball.de'}])
-
-
-const stats = fupaStats.get().then(data => {
-  const parser = new Parser()
+const fupaStatsErste: FupaStatistics = new FupaStatistics('erste')
+fupaStatsErste.create().then(data => {
+  const parser = new Parser(csvOptions)
   const csv = parser.parse(data)
-  console.log(csv)
+  const path = OUTPUT_PATH + '/ErsteStatistik.txt'
+  Fs.writeFileSync(path, csv)
 })
 
-const fupaTable = new FupaTable()
-
-const table = fupaTable.create().then(data => {
-  const output = fupaTable.transform()
+const fupaStatsZweite: FupaStatistics = new FupaStatistics('zweite')
+fupaStatsZweite.create().then(data => {
   const parser = new Parser(csvOptions)
-  const csv = parser.parse(output)
+  const csv = parser.parse(data)
+  const path = OUTPUT_PATH + '/ZweiteStatistik.txt'
+  Fs.writeFileSync(path, csv)
+})
+
+const fupaTableErste = new FupaTable('erste')
+fupaTableErste.create().then(data => {
+  const parser = new Parser(csvOptions)
+  const csv = parser.parse(data)
   const path = OUTPUT_PATH + '/ErsteTabelle.txt'
+  Fs.writeFileSync(path, csv)
+})
+
+const fupaTableZweite = new FupaTable('zweite')
+fupaTableZweite.create().then(data => {
+  const parser = new Parser(csvOptions)
+  const csv = parser.parse(data)
+  const path = OUTPUT_PATH + '/ZweiteTabelle.txt'
   Fs.writeFileSync(path, csv)
 })

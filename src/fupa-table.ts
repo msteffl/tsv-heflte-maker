@@ -7,15 +7,19 @@ import { UrlModel } from "./models/url.model";
 import { downloadImage, getCleanedFileName, HEADER, IMAGE, TEXT } from "./utils";
 
 export class FupaTable {
-  private urls: UrlModel[];
   private result: TableModel[] = []
+  private ersteMannschaft: string = "989540"
+  private zweiteMannschaft: string = "989681"
+  private key: string
 
-  constructor() {}
+  constructor(mannschaft: 'erste' | 'zweite') {
+    this.key = mannschaft === 'erste' ? this.ersteMannschaft : this.zweiteMannschaft
+  }
 
   public async create(): Promise<TableModel[]> {
     try {
       const url =
-        "https://www.fupa.net/fupa/widget.php?val=989540&p=start&act=tabelle&fupa_widget_header=0&fupa_widget_navi=0&fupa_widget_div=widget_5d62e4e03ab28&url=www.tsv-doerzbach.de";
+        `https://www.fupa.net/fupa/widget.php?val=${this.key}&p=start&act=tabelle&fupa_widget_header=0&fupa_widget_navi=0&fupa_widget_div=widget_5d62e4e03ab28&url=www.tsv-doerzbach.de`
       const AxiosInstance = axios.create();
 
       const res = await AxiosInstance.get(url);
@@ -45,7 +49,7 @@ export class FupaTable {
         }
       }
 
-      return this.result;
+      return this.transform();
     } catch (error) {
       console.log(error);
     }
