@@ -10,7 +10,7 @@ export const OUTPUT_PATH = __dirname + "/output"
 const csvOptions = {
   delimiter: "|",
   header: false,
-  doubleQuote: "x"
+  quote: ''
 }
 
 const fupaStatsErste: FupaStatistics = new FupaStatistics('erste')
