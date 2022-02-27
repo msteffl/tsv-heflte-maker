@@ -1,14 +1,14 @@
 export class GamedayService {
   public timeZweite: string
   public timeErste: string
-  public gamedayNumber: string
+  public gamedayNumber: number
 
   constructor() {
   }
 
   public setGamedayNumber(gameday: string) {
     if(!this.gamedayNumber) {
-      this.gamedayNumber = gameday
+      this.gamedayNumber = Number.parseInt(gameday.replace(".", ""))
     }
   }
 
