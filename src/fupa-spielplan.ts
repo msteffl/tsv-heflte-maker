@@ -45,7 +45,6 @@ export class FupaSpielplan {
           if(section.toLowerCase().includes("kreisliga")) {
             const cols = $(row).find("td");
             const imageUrl = $(cols[3]).find("img").attr("src")
-            console.log(imageUrl)
             const item: SpielplanModel = {
               matchDay: $(cols[0]).text().trim(),
               date: $(cols[1]).text().trim(),
