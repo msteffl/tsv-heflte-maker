@@ -100,10 +100,11 @@ export class FupaSpielplan {
     for (const item of this.spielplanErste) {
 
       const zweite = this.spielplanZweite.find(zweite => zweite.matchDay === item.matchDay)
+      const zweiteTime = (zweite ? `${zweite.date.substring(13,18)} / `: '')
 
       transformedResult.push({
         matchDay: TEXT + item.matchDay,
-        date: TEXT + item.date + (zweite ? ` / ${zweite.date.substring(13,18)}`: ''),
+        date: TEXT + item.date.substring(0,12) + " " + zweiteTime + item.date.substring(13,18),
         logo: IMAGE + item.logo,
         location: TEXT + item.location,
         team: TEXT + item.team,
