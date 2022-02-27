@@ -4,7 +4,7 @@ import { IMAGE_PATH } from ".";
 import { StatisticModel } from "./models/statistic.model";
 import { TableModel } from "./models/table.model";
 import { UrlModel } from "./models/url.model";
-import { downloadImage, getCleanedFileName, HEADER, IMAGE, TEXT } from "./utils";
+import { downloadImage, getCleanedFileName, HEADER, IMAGE, removeUmlaute, TEXT } from "./utils";
 
 export class FupaTable {
   private result: TableModel[] = []
@@ -32,7 +32,7 @@ export class FupaTable {
         const imageUrl = $(cols[2]).find("img").attr("src")
         const item: TableModel = {
           number: $(cols[0]).text().trim(),
-          team: $(cols[3]).text().trim(),
+          team: removeUmlaute($(cols[3]).text().trim()),
           logo: IMAGE_PATH + '/' +  getCleanedFileName($(cols[3]).text().trim()),
           games: $(cols[4]).text().trim(),
           wins: $(cols[5]).text().trim(),
