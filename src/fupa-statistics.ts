@@ -1,8 +1,9 @@
 import axios from "axios";
 import cheerio from "cheerio";
+import { IMAGE_PATH } from ".";
 import { StatisticModel } from "./models/statistic.model";
 import { UrlModel } from "./models/url.model";
-import { removeUmlaute, TEXT } from "./utils";
+import { IMAGE, removeUmlaute, TEXT } from "./utils";
 
 export class FupaStatistics {
   private ersteMannschaft: string = "989540"
@@ -48,9 +49,26 @@ export class FupaStatistics {
         return this.transform();
   }
 
+  private createHeaderRow(): StatisticModel {
+    return {
+      number: TEXT ,
+      name: TEXT,
+      games: IMAGE + IMAGE_PATH + '/Einsatz.jpg' ,
+      scores: TEXT + IMAGE_PATH + '/Tore.jpg' ,
+      assist: TEXT + IMAGE_PATH + '/Vorlagen.jpg' ,
+      elevenMeter: TEXT + IMAGE_PATH + '/Elfmeter.jpg' ,
+      yellowCard: TEXT + IMAGE_PATH + '/Gelb.jpg' ,
+      yellowRedCard: TEXT + IMAGE_PATH + '/Gelb-Rot.jpg' ,
+      redCard: TEXT + IMAGE_PATH + '/Rot.jpg' ,
+      in:  TEXT + IMAGE_PATH + '/Einwechsel.jpg' ,
+      out:  TEXT + IMAGE_PATH + '/Auswechsel.jpg' ,
+      playTime: TEXT + + IMAGE_PATH + '/Gesamtspielzeit.jpg' ,
+    }
+  }
+
   public transform(): StatisticModel[]{
     const transformedResult: StatisticModel[] = []
-    // transformedResult.push(this.createHeaderRow())
+    transformedResult.push(this.createHeaderRow())
     for (const item of this.result) {
       transformedResult.push({
         number: TEXT + item.number,
