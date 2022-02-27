@@ -2,7 +2,7 @@ import axios from "axios";
 import cheerio from "cheerio";
 import { StatisticModel } from "./models/statistic.model";
 import { UrlModel } from "./models/url.model";
-import { TEXT } from "./utils";
+import { removeUmlaute, TEXT } from "./utils";
 
 export class FupaStatistics {
   private ersteMannschaft: string = "989540"
@@ -28,7 +28,7 @@ export class FupaStatistics {
           const cols = $(row).find("td");
           const item = {
             number: $(cols[0]).text(),
-            name: $(cols[2]).text(),
+            name: removeUmlaute($(cols[2]).text()),
             games: $(cols[3]).text(),
             scores: $(cols[4]).text(),
             assist: $(cols[5]).text(),

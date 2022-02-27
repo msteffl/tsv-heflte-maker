@@ -6,7 +6,7 @@ import { SpielplanModel } from "./models/spielplan.model";
 import { StatisticModel } from "./models/statistic.model";
 import { TableModel } from "./models/table.model";
 import { UrlModel } from "./models/url.model";
-import { downloadImage, getCleanedFileName, HEADER, IMAGE, TEXT } from "./utils";
+import { downloadImage, getCleanedFileName, HEADER, IMAGE, removeUmlaute, TEXT } from "./utils";
 
 export class FupaSpielplan {
   private resultComplete: SpielplanCompleteModel[] = []
@@ -50,7 +50,7 @@ export class FupaSpielplan {
               date: $(cols[1]).text().trim(),
               location: $(cols[2]).text().trim(),
               logo: IMAGE_PATH + '/' +  getCleanedFileName($(cols[4]).text().trim()),
-              team: $(cols[4]).text().trim(),
+              team: removeUmlaute($(cols[4]).text().trim()),
               result:$(cols[5]).text().trim()
             }
             if (item && item.matchDay !== "") {

@@ -29,6 +29,7 @@ export async function downloadImage(url: string, fileName: string) {
 }
 
 export function getCleanedFileName(fileName: string) {
+  fileName = removeUmlaute(fileName)
   return fileName
     .trim()
     .replace("\\", "-")
@@ -37,10 +38,14 @@ export function getCleanedFileName(fileName: string) {
     .replace(" ", "")
     .replace(" ", "")
     .replace(" ", "")
+    .toLowerCase() + ".jpg";
+}
+
+export function removeUmlaute(text: string) {
+  return text
     .replace(/\u00e4/g, "ae")
     .replace(/\u00fc/g, "ue")
     .replace(/\u00f6/g, "oe")
     .replace(/\u00df/g, "ss")
-    .toLowerCase() + ".jpg";
 }
 
