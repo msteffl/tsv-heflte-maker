@@ -5,7 +5,7 @@ import { MatchModel } from "./models/match.model";
 import { StatisticModel } from "./models/statistic.model";
 import { TableModel } from "./models/table.model";
 import { UrlModel } from "./models/url.model";
-import { downloadImage, getCleanedFileName, HEADER, IMAGE, removeUmlaute, TEXT } from "./utils";
+import { downloadImage, getCleanedFileName, getCleanedTeamName, HEADER, IMAGE, removeUmlaute, TEXT } from "./utils";
 
 export class FussballdeMatches {
   private result: MatchModel[] = []
@@ -52,8 +52,8 @@ export class FussballdeMatches {
           time: this.matchTime,
           logoHome: imageUrlHome ? IMAGE_PATH + '/' +  getCleanedFileName($( team[0]).text()) : "",
           logoGuest: iamgeUrlGuest ? IMAGE_PATH + '/' +  getCleanedFileName($(team[1]).text()) : "",
-          home: removeUmlaute($(team[0]).text().trim()),
-          guest: removeUmlaute($(team[1]).text().trim()),
+          home: getCleanedTeamName($(team[0]).text().trim()),
+          guest: getCleanedTeamName($(team[1]).text().trim()),
           result: "-:-"
         };
         if (item && item.home !== "") {

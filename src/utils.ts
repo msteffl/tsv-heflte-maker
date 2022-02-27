@@ -50,3 +50,9 @@ export function removeUmlaute(text: string) {
     .replace(/\u00df/g, "ss")
 }
 
+export function getCleanedTeamName(text: string) {
+  text = removeUmlaute(text)
+  return text
+    .replace("\\", "-")
+    .replace("/", "-")
+}
