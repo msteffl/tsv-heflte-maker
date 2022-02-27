@@ -1,7 +1,7 @@
 export interface TableModel {
   number: string
-  team: string
   logo: string
+  team: string
   games: string
   wins: string
   draws: string

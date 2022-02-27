@@ -58,8 +58,8 @@ export class FupaTable {
   private createHeaderRow(): TableModel {
     return {
       number: HEADER + '',
-      team: HEADER + '',
       logo: HEADER + '',
+      team: HEADER + '',
       games: HEADER + 'S',
       wins: HEADER + 'S',
       draws: HEADER + 'U',
@@ -76,8 +76,8 @@ export class FupaTable {
     for (const item of this.result) {
       transformedResult.push({
         number: TEXT + item.number,
-        team: TEXT + item.team,
         logo: IMAGE + item.logo,
+        team: TEXT + item.team,
         games: TEXT + item.games,
         wins: TEXT + item.wins,
         draws: TEXT + item.draws,
