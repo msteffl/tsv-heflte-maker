@@ -1,9 +1,8 @@
 export interface MatchModel {
-  date: string
   time: string
   home: string
   logoHome: string
+  result: string
   guest: string
   logoGuest: string
-  result: string
 }

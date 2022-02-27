@@ -49,7 +49,6 @@ export class FussballdeMatches {
         iamgeUrlGuest = iamgeUrlGuest ? iamgeUrlGuest.replace("//www.", "https://"): iamgeUrlGuest
 
         const item: MatchModel = {
-          date: "",
           time: this.matchTime,
           logoHome: imageUrlHome ? IMAGE_PATH + '/' +  getCleanedFileName($( team[0]).text()) : "",
           logoGuest: iamgeUrlGuest ? IMAGE_PATH + '/' +  getCleanedFileName($(team[1]).text()) : "",
@@ -77,13 +76,12 @@ export class FussballdeMatches {
 
   private createHeaderRow(): MatchModel {
     return {
-      date: HEADER + 'Datum',
       time: HEADER + 'Zeit',
       logoHome: HEADER + '',
       home: HEADER + 'Heim',
+      result: HEADER + 'Erg.',
       logoGuest: HEADER + '',
       guest: HEADER + 'Gast',
-      result: HEADER + 'Erg.'
     }
   }
 
@@ -92,13 +90,12 @@ export class FussballdeMatches {
     transformedResult.push(this.createHeaderRow())
     for (const item of this.result) {
       transformedResult.push({
-        date: TEXT + item.date,
         time: TEXT + item.time,
         logoHome: IMAGE + item.logoHome,
-        logoGuest: IMAGE + item.logoGuest,
         home: TEXT + item.home,
-        guest: TEXT + item.guest,
         result: TEXT + item.result,
+        logoGuest: IMAGE + item.logoGuest,
+        guest: TEXT + item.guest
       })
     }
     return transformedResult
