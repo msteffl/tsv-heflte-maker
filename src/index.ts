@@ -46,10 +46,18 @@ const csvOptions = {
 //   Fs.writeFileSync(path, csv)
 // })
 
-const fussballdeMatchesErste: FussballdeMatches = new FussballdeMatches('erste', 16)
+const fussballdeMatchesErste: FussballdeMatches = new FussballdeMatches('erste', 16, "15:00")
 fussballdeMatchesErste.create().then(data => {
   const parser = new Parser(csvOptions)
   const csv = parser.parse(data)
   const path = OUTPUT_PATH + '/ErsteBegegnungen.txt'
+  Fs.writeFileSync(path, csv)
+})
+
+const fussballdeMatchesZweite: FussballdeMatches = new FussballdeMatches('zweite', 16, "13:00")
+fussballdeMatchesZweite.create().then(data => {
+  const parser = new Parser(csvOptions)
+  const csv = parser.parse(data)
+  const path = OUTPUT_PATH + '/ZweiteBegegnungen.txt'
   Fs.writeFileSync(path, csv)
 })

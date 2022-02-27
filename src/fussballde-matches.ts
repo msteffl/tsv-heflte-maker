@@ -13,10 +13,12 @@ export class FussballdeMatches {
   private zweiteMannschaft: string = "02FDV54H50000000VUM1DNO5VUCNOT5O"
   private key: string
   private gameDay: number
+  private matchTime: string
 
-  constructor(mannschaft: 'erste' | 'zweite', gameDay: number) {
+  constructor(mannschaft: 'erste' | 'zweite', gameDay: number, matchTime: string) {
     this.key = mannschaft === 'erste' ? this.ersteMannschaft : this.zweiteMannschaft
     this.gameDay = gameDay
+    this.matchTime = matchTime
   }
 
   public async create(): Promise<MatchModel[]> {
@@ -34,31 +36,35 @@ export class FussballdeMatches {
         const team = $(row).find(".column-club");
         const logo: cheerio.Cheerio = $(row).find(".column-club > a > .club-logo > span ");
 
-        console.log($(team[0]).text().trim())
-        console.log($(logo[0]).attr('data-responsive-image'))
-        console.log($(team[1]).text().trim())
-        console.log($(logo[1]).attr('data-responsive-image'))
+        // console.log($(team[0]).text().trim())
+        // console.log($(logo[0]).attr('data-responsive-image'))
+        // console.log($(team[1]).text().trim())
+        // console.log($(logo[1]).attr('data-responsive-image'))
 
 
         let imageUrlHome = $(logo[0]).attr('data-responsive-image')
-        imageUrlHome = imageUrlHome ? imageUrlHome.replace("//", ""): imageUrlHome
+        imageUrlHome = imageUrlHome ? imageUrlHome.replace("//www.", "https://"): imageUrlHome
 
         let iamgeUrlGuest = $(logo[1]).attr('data-responsive-image')
-        iamgeUrlGuest = iamgeUrlGuest ? iamgeUrlGuest.replace("//", ""): iamgeUrlGuest
+        iamgeUrlGuest = iamgeUrlGuest ? iamgeUrlGuest.replace("//www.", "https://"): iamgeUrlGuest
 
         const item: MatchModel = {
           date: "",
-          time: "13:00",
-          logoHome: imageUrlHome ? IMAGE_PATH + '/' +  $(team[0]).text().trim() : "",
-          logoGuest: iamgeUrlGuest ? IMAGE_PATH + '/' +  $(team[1]).text().trim() : "",
+          time: this.matchTime,
+          logoHome: imageUrlHome ? IMAGE_PATH + '/' +  getCleanedFileName($( team[0]).text()) : "",
+          logoGuest: iamgeUrlGuest ? IMAGE_PATH + '/' +  getCleanedFileName($(team[1]).text()) : "",
           home: $(team[0]).text().trim(),
           guest: $(team[1]).text().trim(),
           result: "-:-"
         };
-        console.log(item)
         if (item && item.home !== "") {
-          // await downloadImage(imageUrlHome, item.logoHome)
-          // await downloadImage(iamgeUrlGuest, item.logoGuest)
+          console.log(item.home + " vs. " + item.guest)
+          if (imageUrlHome) {
+            await downloadImage(imageUrlHome, item.logoHome)
+          }
+          if (iamgeUrlGuest) {
+            await downloadImage(iamgeUrlGuest, item.logoGuest)
+          }
           this.result.push(item);
         }
       }
@@ -77,7 +83,7 @@ export class FussballdeMatches {
       home: HEADER + 'Heim',
       logoGuest: HEADER + '',
       guest: HEADER + 'Gast',
-      result: HEADER + 'Ergebnis'
+      result: HEADER + 'Erg.'
     }
   }
 

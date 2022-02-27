@@ -30,10 +30,13 @@ export async function downloadImage(url: string, fileName: string) {
 
 export function getCleanedFileName(fileName: string) {
   return fileName
+    .trim()
+    .replace("\\", "-")
     .replace("/", "-")
     .replace(" ", "")
     .replace(" ", "")
-    .trim()
+    .replace(" ", "")
+    .replace(" ", "")
     .toLowerCase() + ".jpg";
 }
 
