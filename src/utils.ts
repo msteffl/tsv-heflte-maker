@@ -38,6 +38,7 @@ export function getCleanedFileName(fileName: string) {
     .replace(" ", "")
     .replace(" ", "")
     .replace(" ", "")
+    .substring(0,10)
     .toLowerCase() + ".jpg";
 }
 
