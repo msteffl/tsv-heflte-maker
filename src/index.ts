@@ -4,6 +4,7 @@ import { FupaTable } from "./fupa-table"
 import Path from "path";
 import Fs from "fs";
 import { FussballdeMatches } from "./fussballde-matches";
+import { FupaSpielplan } from "./fupa-spielplan";
 
 export const IMAGE_PATH = __dirname + "/images"
 export const OUTPUT_PATH = __dirname + "/output"
@@ -46,18 +47,26 @@ const csvOptions = {
 //   Fs.writeFileSync(path, csv)
 // })
 
-const fussballdeMatchesErste: FussballdeMatches = new FussballdeMatches('erste', 16, "15:00")
-fussballdeMatchesErste.create().then(data => {
-  const parser = new Parser(csvOptions)
-  const csv = parser.parse(data)
-  const path = OUTPUT_PATH + '/ErsteBegegnungen.txt'
-  Fs.writeFileSync(path, csv)
-})
+// const fussballdeMatchesErste: FussballdeMatches = new FussballdeMatches('erste', 16, "15:00")
+// fussballdeMatchesErste.create().then(data => {
+//   const parser = new Parser(csvOptions)
+//   const csv = parser.parse(data)
+//   const path = OUTPUT_PATH + '/ErsteBegegnungen.txt'
+//   Fs.writeFileSync(path, csv)
+// })
 
-const fussballdeMatchesZweite: FussballdeMatches = new FussballdeMatches('zweite', 16, "13:00")
-fussballdeMatchesZweite.create().then(data => {
+// const fussballdeMatchesZweite: FussballdeMatches = new FussballdeMatches('zweite', 16, "13:00")
+// fussballdeMatchesZweite.create().then(data => {
+//   const parser = new Parser(csvOptions)
+//   const csv = parser.parse(data)
+//   const path = OUTPUT_PATH + '/ZweiteBegegnungen.txt'
+//   Fs.writeFileSync(path, csv)
+// })
+
+const fupaSpielplan: FupaSpielplan = new FupaSpielplan()
+fupaSpielplan.createComplete().then(data => {
   const parser = new Parser(csvOptions)
   const csv = parser.parse(data)
-  const path = OUTPUT_PATH + '/ZweiteBegegnungen.txt'
+  const path = OUTPUT_PATH + '/Spielplan.txt'
   Fs.writeFileSync(path, csv)
 })
