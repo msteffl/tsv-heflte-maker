@@ -62,7 +62,7 @@ export class FupaStatistics {
       redCard: IMAGE + IMAGE_PATH + '/Rot.jpg' ,
       in:  IMAGE + IMAGE_PATH + '/Einwechsel.jpg' ,
       out:  IMAGE + IMAGE_PATH + '/Auswechsel.jpg' ,
-      playTime: IMAGE + + IMAGE_PATH + '/Gesamtspielzeit.jpg' ,
+      playTime: IMAGE + IMAGE_PATH + '/Gesamtspielzeit.jpg' ,
     }
   }
 
