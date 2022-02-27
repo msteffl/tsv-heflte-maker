@@ -1,6 +1,7 @@
 import axios from "axios";
 import cheerio from "cheerio";
 import { IMAGE_PATH } from ".";
+import { GamedayService } from "./gameday.service";
 import { SpielplanCompleteModel } from "./models/spielplan-complete.model";
 import { SpielplanModel } from "./models/spielplan.model";
 import { StatisticModel } from "./models/statistic.model";
@@ -15,12 +16,13 @@ export class FupaSpielplan {
   private spielplanErste: SpielplanModel[]
   private spielplanZweite: SpielplanModel[]
 
-  constructor() {
+  constructor(private gamedayService: GamedayService) {
   }
 
   public async createComplete(): Promise<SpielplanCompleteModel[]> {
     this.spielplanErste = await this.create(this.ersteMannschaft)
     this.spielplanZweite = await this.create(this.zweiteMannschaft)
+    this.setGameday()
     return this.transform()
   }
 
@@ -64,6 +66,19 @@ export class FupaSpielplan {
       return result;
     } catch (error) {
       console.log(error);
+    }
+  }
+
+  private setGameday(): void {
+    for (const game of this.spielplanErste) {
+      if(game.result == "-:-") {
+        this.gamedayService.setGamedayNumber(game.matchDay)
+        this.gamedayService.setTimeErste(game.date.substring(13,18))
+        const zweite = this.spielplanZweite.find(zweite => zweite.matchDay === game.matchDay)
+        if(zweite) {
+          this.gamedayService.setTimeZweite(zweite.date.substring(13,18))
+        }
+      }
     }
   }
 

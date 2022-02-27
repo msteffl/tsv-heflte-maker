@@ -57,7 +57,6 @@ export class FussballdeMatches {
           result: "-:-"
         };
         if (item && item.home !== "") {
-          console.log(item.home + " vs. " + item.guest)
           if (imageUrlHome) {
             await downloadImage(imageUrlHome, item.logoHome)
           }
@@ -94,7 +93,7 @@ export class FussballdeMatches {
         logoHome: IMAGE + item.logoHome,
         home: TEXT + item.home,
         result: TEXT + item.result,
-        logoGuest: IMAGE + item.logoGuest,
+        logoGuest: item.guest.toLowerCase() === "spielfrei" ? TEXT : IMAGE + item.logoGuest,
         guest: TEXT + item.guest
       })
     }
