@@ -3,7 +3,7 @@ import Fs from "fs";
 import axios from "axios";
 import { IMAGE_PATH } from ".";
 
-export const TEXT = "text#";
+export const TEXT = "txt#";
 export const IMAGE = "img#";
 export const HEADER = "hdr#";
 
