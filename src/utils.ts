@@ -55,5 +55,5 @@ export function getCleanedTeamName(text: string) {
   return text
     .replace("\\", "-")
     .replace("/", "-")
-    .replace(/(\r\n|\n|\r)/gm, "")
+    .replace(/[^\w\s]/gi, '')
 }
