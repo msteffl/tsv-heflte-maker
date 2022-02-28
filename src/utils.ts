@@ -53,7 +53,5 @@ export function removeUmlaute(text: string) {
 export function getCleanedTeamName(text: string) {
   text = removeUmlaute(text)
   return text
-    .replace("\\", "-")
-    .replace("/", "-")
-    .replace(/[^\w\s]/gi, '')
+    .replace(/[^\w\s\\\/\-]/gi, '')
 }
