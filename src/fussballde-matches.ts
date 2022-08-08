@@ -9,8 +9,8 @@ import { downloadImage, getCleanedFileName, getCleanedTeamName, HEADER, IMAGE, r
 
 export class FussballdeMatches {
   private result: MatchModel[] = []
-  private ersteMannschaft: string = "02FDV4O918000000VUM1DNOMVS4UPRQD"
-  private zweiteMannschaft: string = "02FDV54H50000000VUM1DNO5VUCNOT5O"
+  private ersteMannschaft: string = "02J18GRKM0000000VUM1DNPCVU4MLK3F"
+  private zweiteMannschaft: string = "02J18H6D1C000000VUM1DNOPVS9NSHQP"
   private key: string
   private gameDay: number
   private matchTime: string

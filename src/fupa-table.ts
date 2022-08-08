@@ -8,8 +8,8 @@ import { downloadImage, getCleanedFileName, HEADER, IMAGE, removeUmlaute, TEXT }
 
 export class FupaTable {
   private result: TableModel[] = []
-  private ersteMannschaft: string = "989540"
-  private zweiteMannschaft: string = "989681"
+  private ersteMannschaft: string = "1040157"
+  private zweiteMannschaft: string = "1048991"
   private key: string
 
   constructor(mannschaft: 'erste' | 'zweite') {
@@ -30,6 +30,7 @@ export class FupaTable {
       for (const row of table) {
         const cols = $(row).find("td");
         const imageUrl = $(cols[2]).find("img").attr("src")
+        console.log( $(cols[0]).text().trim())
         const item: TableModel = {
           number: $(cols[0]).text().trim(),
           team: removeUmlaute($(cols[3]).text().trim()),
@@ -43,7 +44,7 @@ export class FupaTable {
           points: $(cols[10]).text().trim(),
         };
 
-        if (item && item.number !== "") {
+        if (item && imageUrl ) {
           await downloadImage(imageUrl, item.logo)
           this.result.push(item);
         }
