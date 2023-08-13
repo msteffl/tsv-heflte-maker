@@ -8,8 +8,8 @@ import { downloadImage, getCleanedFileName, HEADER, IMAGE, removeUmlaute, TEXT }
 
 export class FupaTable {
   private result: TableModel[] = []
-  private ersteMannschaft: string = "1040157"
-  private zweiteMannschaft: string = "1048991"
+  private ersteMannschaft: string = "1153946"
+  private zweiteMannschaft: string = "1154042"
   private key: string
 
   constructor(mannschaft: 'erste' | 'zweite') {

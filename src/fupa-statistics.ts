@@ -6,8 +6,8 @@ import { UrlModel } from "./models/url.model";
 import { IMAGE, removeUmlaute, TEXT } from "./utils";
 
 export class FupaStatistics {
-  private ersteMannschaft: string = "1040157"
-  private zweiteMannschaft: string = "1048991"
+  private ersteMannschaft: string = "1153946"
+  private zweiteMannschaft: string = "1154042"
   private key: string
   private result: StatisticModel[] = []
 

@@ -11,8 +11,8 @@ import { downloadImage, getCleanedFileName, HEADER, IMAGE, removeUmlaute, TEXT }
 
 export class FupaSpielplan {
   private resultComplete: SpielplanCompleteModel[] = []
-  private ersteMannschaft: string = "1040157"
-  private zweiteMannschaft: string = "1048991"
+  private ersteMannschaft: string = "1153946"
+  private zweiteMannschaft: string = "1154042"
   private spielplanErste: SpielplanModel[]
   private spielplanZweite: SpielplanModel[]
 
