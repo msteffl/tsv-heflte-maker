@@ -19,6 +19,14 @@ async function run() {
     quote: "",
   };
 
+  if(!Fs.existsSync(OUTPUT_PATH)) {
+    Fs.mkdirSync(OUTPUT_PATH);
+  }
+
+  if(!Fs.existsSync(IMAGE_PATH)) {
+    Fs.mkdirSync(IMAGE_PATH);
+  }
+
   const gameDayService = new GamedayService();
 
   console.log("Generating Spielplan...");
