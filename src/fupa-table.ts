@@ -30,7 +30,6 @@ export class FupaTable {
       for (const row of table) {
         const cols = $(row).find("td");
         const imageUrl = $(cols[2]).find("img").attr("src")
-        console.log( $(cols[0]).text().trim())
         const item: TableModel = {
           number: $(cols[0]).text().trim(),
           team: removeUmlaute($(cols[3]).text().trim()),

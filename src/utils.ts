@@ -8,23 +8,27 @@ export const IMAGE = "img#";
 export const HEADER = "hdr#";
 
 export async function downloadImage(url: string, fileName: string) {
-  const path = Path.resolve(IMAGE_PATH, fileName);
-  if (!Fs.existsSync(path)) {
-    console.log('Download image ' + url)
-    const writer = Fs.createWriteStream(path);
+  try {
+    const path = Path.resolve(IMAGE_PATH, fileName);
+    if (!Fs.existsSync(path)) {
+      console.log('Download image ' + url)
+      const writer = Fs.createWriteStream(path);
 
-    const response = await axios.create()({
-      url,
-      method: "GET",
-      responseType: "stream",
-    });
+      const response = await axios.create()({
+        url,
+        method: "GET",
+        responseType: "stream",
+      });
 
-    response.data.pipe(writer);
+      response.data.pipe(writer);
 
-    return new Promise((resolve, reject) => {
-      writer.on("finish", resolve);
-      writer.on("error", reject);
-    });
+      return new Promise((resolve, reject) => {
+        writer.on("finish", resolve);
+        writer.on("error", reject);
+      });
+    }
+  } catch (error) {
+    console.log(error);
   }
 }
 
