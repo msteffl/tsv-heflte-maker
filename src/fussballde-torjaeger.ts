@@ -1,7 +1,7 @@
 import axios from "axios";
 import cheerio from "cheerio";
 import { IMAGE_PATH } from ".";
-import { downloadImage, getCleanedFileName, getCleanedTeamName, HEADER, IMAGE, TEXT } from "./utils";
+import { downloadImage, getCleanedFileName, getCleanedTeamName, HEADER, IMAGE, removeUmlaute, TEXT } from "./utils";
 import { TorjagerModel } from "./models/torjaeger.model";
 
 export class FussballdeTorjaeger {
@@ -25,7 +25,8 @@ export class FussballdeTorjaeger {
       const html = res.data;
       const $ = cheerio.load(html);
       const table: cheerio.Cheerio = $("table > tbody > tr");
-      for (const row of table) {
+      for (let i = 0; i < 15; i++) {
+        const row = table[i]
         const rank = $(row).find(".column-rank");
         
         const clubLogo = $(row).find(".column-club > a > .club-logo > img")
@@ -55,7 +56,7 @@ export class FussballdeTorjaeger {
           rank: rank ? $(rank).text() : "",
           clubLogo: clubLogoUrl ? IMAGE_PATH + '/' +  getCleanedFileName(clubName) : "",
           image: imageUrlPlayer ? IMAGE_PATH + '/' +  getCleanedFileName(playerName) : "",
-          name: playerName,
+          name: removeUmlaute(playerName),
           club: getCleanedTeamName(clubName).trim(),
           goals: goals
         };
