@@ -4,10 +4,11 @@ import { IMAGE_PATH } from ".";
 import { StatisticModel } from "./models/statistic.model";
 import { UrlModel } from "./models/url.model";
 import { IMAGE, removeUmlaute, TEXT } from "./utils";
+import { FupaStatsResponseModel } from "./models/fupa-stats-respsonse.model";
 
 export class FupaStatistics {
-  private ersteMannschaft: string = "1153946"
-  private zweiteMannschaft: string = "1154042"
+  private ersteMannschaft: string = "tsv-doerzbachklepsau-m1"
+  private zweiteMannschaft: string = "tsv-doerzbachklepsau-mr2"
   private key: string
   private result: StatisticModel[] = []
 
@@ -17,36 +18,30 @@ export class FupaStatistics {
 
   public async create(): Promise<StatisticModel[]> {
     const url =
-      `https://www.fupa.net/fupa/widget.php?val=${this.key}&p=start&act=statistik&fupa_widget_header=0&fupa_widget_navi=0&fupa_widget_div=widget_5d62e502d43e7&url=www.tsv-doerzbach.de`
+      `https://api.fupa.net/v1/widget/teams/${this.key}/stats`
     const AxiosInstance = axios.create();
 
-    const res = await AxiosInstance.get(url)
-
-    const html = res.data;
-        const $ = cheerio.load(html);
-        const table: cheerio.Cheerio = $("tr");
-        table.each((i, row) => {
-          const cols = $(row).find("td");
-          const item = {
-            number: $(cols[0]).text(),
-            name: removeUmlaute($(cols[2]).text()),
-            games: $(cols[3]).text(),
-            scores: $(cols[4]).text(),
-            assist: $(cols[5]).text(),
-            elevenMeter: $(cols[6]).text(),
-            yellowCard: $(cols[7]).text(),
-            yellowRedCard: $(cols[8]).text(),
-            redCard: $(cols[9]).text(),
-            in: $(cols[10]).text(),
-            out: $(cols[11]).text(),
-            playTime: $(cols[12]).text()
-          };
-
-          if (item && item.number !== "") {
-            this.result.push(item);
-          }
-        });
-        return this.transform();
+    const res = (await AxiosInstance.get<FupaStatsResponseModel>(url)).data
+    let number = 0
+    for (const stat of res) {
+      number = number + 1
+      const item: StatisticModel = {
+        number: number + '',
+        name: `${removeUmlaute(stat.firstName)} ${removeUmlaute(stat.lastName)}`,
+        games: stat.matches + '',
+        scores: stat.goals + '',
+        assist: stat.assists + '',
+        elevenMeter: stat.penaltiesHit + '/' + stat.penaltiesTotal,
+        yellowCard: stat.yellowCards + '',
+        yellowRedCard: stat.yellowRedCards + '',
+        redCard: stat.redCards + '',
+        in: stat.substitutesIn + '',
+        out: stat.substitutesOut + '',
+        playTime: stat.minutesPlayed + ''
+      };
+      this.result.push(item);
+    }
+    return this.transform();
   }
 
   private createHeaderRow(): StatisticModel {

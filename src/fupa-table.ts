@@ -5,11 +5,12 @@ import { StatisticModel } from "./models/statistic.model";
 import { TableModel } from "./models/table.model";
 import { UrlModel } from "./models/url.model";
 import { downloadImage, getCleanedFileName, HEADER, IMAGE, removeUmlaute, TEXT } from "./utils";
+import { FupaStandingsResponseModel } from "./models/fupa-standings-response.model";
 
 export class FupaTable {
   private result: TableModel[] = []
-  private ersteMannschaft: string = "1153946"
-  private zweiteMannschaft: string = "1154042"
+  private ersteMannschaft: string = "tsv-doerzbachklepsau-m1"
+  private zweiteMannschaft: string = "tsv-doerzbachklepsau-mr2"
   private key: string
 
   constructor(mannschaft: 'erste' | 'zweite') {
@@ -19,34 +20,26 @@ export class FupaTable {
   public async create(): Promise<TableModel[]> {
     try {
       const url =
-        `https://www.fupa.net/fupa/widget.php?val=${this.key}&p=start&act=tabelle&fupa_widget_header=0&fupa_widget_navi=0&fupa_widget_div=widget_5d62e4e03ab28&url=www.tsv-doerzbach.de`
+        `https://api.fupa.net/v1/widget/teams/${this.key}/standings`
       const AxiosInstance = axios.create();
 
-      const res = await AxiosInstance.get(url);
+      const res = (await AxiosInstance.get<FupaStandingsResponseModel>(url)).data;
 
-      const html = res.data;
-      const $ = cheerio.load(html);
-      const table: cheerio.Cheerio = $("tr");
-      for (const row of table) {
-        const cols = $(row).find("td");
-        const imageUrl = $(cols[2]).find("img").attr("src")
+      for (const standing of res.standings) {
         const item: TableModel = {
-          number: $(cols[0]).text().trim(),
-          team: removeUmlaute($(cols[3]).text().trim()),
-          logo: IMAGE_PATH + '/' +  getCleanedFileName($(cols[3]).text().trim()),
-          games: $(cols[4]).text().trim(),
-          wins: $(cols[5]).text().trim(),
-          draws: $(cols[6]).text().trim(),
-          losses: $(cols[7]).text().trim(),
-          goals: $(cols[8]).text().trim(),
-          diff: $(cols[9]).text().trim(),
-          points: $(cols[10]).text().trim(),
+          number: standing.rank + '',
+          team: removeUmlaute(standing.team.name.full),
+          logo: IMAGE_PATH + '/' + getCleanedFileName(standing.team.name.full, 'png'),
+          games: standing.matches + '',
+          wins: standing.wins + '',
+          draws: standing.draws + '',
+          losses: standing.defeats + '',
+          goals: standing.ownGoals + ' : ' + standing.againstGoals,
+          diff: standing.goalDifference + '',
+          points: standing.points + '',
         };
-
-        if (item && imageUrl ) {
-          await downloadImage(imageUrl, item.logo)
-          this.result.push(item);
-        }
+        await downloadImage(`${standing.team.image.path}/100x100.png`, item.logo)
+        this.result.push(item);
       }
 
       return this.transform();

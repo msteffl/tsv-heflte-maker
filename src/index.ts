@@ -4,7 +4,7 @@ import { FupaTable } from "./fupa-table";
 import Path from "path";
 import Fs from "fs";
 import { FussballdeMatches } from "./fussballde-matches";
-import { FupaSpielplan } from "./fupa-spielplan";
+import { FupaSpielplanSingle } from "./fupa-spielplan-single";
 import { GamedayService } from "./gameday.service";
 import { FussballdeTorjaeger } from "./fussballde-torjaeger";
 
@@ -32,12 +32,19 @@ async function run() {
 
   console.log("Generating Spielplan...");
 
-  const fupaSpielplan: FupaSpielplan = new FupaSpielplan(gameDayService);
-  const spielplan = await fupaSpielplan.createComplete()
-  const parser = new Parser(csvOptions);
-  const csv = parser.parse(spielplan);
-  const path = OUTPUT_PATH + "/Spielplan.txt";
-  Fs.writeFileSync(path, csv);
+  const fupaSpielplanErste: FupaSpielplanSingle = new FupaSpielplanSingle("erste");
+  const spielplanErste = await fupaSpielplanErste.create()
+  const parserErste = new Parser(csvOptions);
+  const csvErste = parserErste.parse(spielplanErste);
+  const pathErste = OUTPUT_PATH + "/ErsteSpielplan.txt";
+  Fs.writeFileSync(pathErste, csvErste);
+
+  const fupaSpielplanZweite: FupaSpielplanSingle = new FupaSpielplanSingle("zweite");
+  const spielplanZweite = await fupaSpielplanZweite.create()
+  const parserZweite = new Parser(csvOptions);
+  const csvZweite = parserZweite.parse(spielplanZweite);
+  const pathZweite = OUTPUT_PATH + "/ZweiteSpielplan.txt";
+  Fs.writeFileSync(pathZweite, csvZweite);
 
   console.log(
     gameDayService.gamedayNumber,
