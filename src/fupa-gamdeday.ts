@@ -28,7 +28,6 @@ export class FupaGameday {
         const item: MatchModel = {
           home: removeUmlaute(match.homeTeam.name.full),
           guest: removeUmlaute(match.awayTeam.name.full),
-          result: match.homeGoal ? match.homeGoal : '-' + ' : ' + match.awayGoal ? match.awayGoal : '-',
           time: match.kickoff,
           logoGuest: IMAGE_PATH + '/' + getCleanedFileName(match.awayTeam.name.full, 'png'),
           logoHome: IMAGE_PATH + '/' + getCleanedFileName(match.homeTeam.name.full, 'png')
@@ -55,9 +54,8 @@ export class FupaGameday {
       time: HEADER + 'Zeit',
       logoHome: HEADER + '',
       home: HEADER + 'Heim',
-      result: HEADER + 'Erg.',
       logoGuest: HEADER + '',
-      guest: HEADER + 'Gast',
+      guest: HEADER + 'Gast'
     }
   }
 
@@ -69,7 +67,6 @@ export class FupaGameday {
         time: TEXT + format(item.time, "dd.MM.yyyy HH:mm"),
         logoHome: IMAGE + item.logoHome,
         home: TEXT + item.home,
-        result: TEXT + item.result,
         logoGuest: item.guest.toLowerCase() === "spielfrei" ? TEXT : IMAGE + item.logoGuest,
         guest: TEXT + item.guest
       })

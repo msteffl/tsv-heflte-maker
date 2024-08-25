@@ -77,7 +77,7 @@ export class FupaSpielplanSingle {
         location: HEADER + '',
         logo: HEADER + '',
         team: HEADER + '',
-        result: HEADER + '1.MS'
+        result: HEADER + 'Erg.'
     }
   }
 

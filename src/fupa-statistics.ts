@@ -22,6 +22,7 @@ export class FupaStatistics {
     const AxiosInstance = axios.create();
 
     const res = (await AxiosInstance.get<FupaStatsResponseModel>(url)).data
+    res.sort((a, b) => Number(b.minutesPlayed) - Number(a.minutesPlayed));
     let number = 0
     for (const stat of res) {
       number = number + 1
@@ -41,6 +42,7 @@ export class FupaStatistics {
       };
       this.result.push(item);
     }
+
     return this.transform();
   }
 

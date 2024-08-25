@@ -54,7 +54,6 @@ export class FussballdeMatches {
           logoGuest: iamgeUrlGuest ? IMAGE_PATH + '/' +  getCleanedFileName($(team[1]).text()) : "",
           home: getCleanedTeamName($(team[0]).text().trim()),
           guest: getCleanedTeamName($(team[1]).text().trim()),
-          result: "-:-"
         };
         if (item && item.home !== "") {
           if (imageUrlHome) {
@@ -78,7 +77,6 @@ export class FussballdeMatches {
       time: HEADER + 'Zeit',
       logoHome: HEADER + '',
       home: HEADER + 'Heim',
-      result: HEADER + 'Erg.',
       logoGuest: HEADER + '',
       guest: HEADER + 'Gast',
     }
@@ -92,7 +90,6 @@ export class FussballdeMatches {
         time: TEXT + item.time,
         logoHome: IMAGE + item.logoHome,
         home: TEXT + item.home,
-        result: TEXT + item.result,
         logoGuest: item.guest.toLowerCase() === "spielfrei" ? TEXT : IMAGE + item.logoGuest,
         guest: TEXT + item.guest
       })
