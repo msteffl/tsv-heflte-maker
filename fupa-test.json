@@ -1,1607 +1,2402 @@
 [
     {
-        "month": 8,
-        "matches": [
-            {
-                "id": 13585637,
-                "slug": "sv-mulfingen-m1-tsv-doerzbachklepsau-m1-240825",
-                "kickoff": "2024-08-25T15:00:00+02:00",
-                "updatedAt": 1723104214,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241894,
-                    "slug": "sg-sv-mulfingen-hollenbach-m1-2024-25",
-                    "name": {
-                        "full": "SGM Mulfingen\/Hollenbach",
-                        "middle": "SGM Mulfingen\/Hollenbach",
-                        "short": "SGM Mulfin"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/o5Ymb6JuvEyS\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "sv-mulfingen"
+        "id": 13585637,
+        "slug": "sv-mulfingen-m1-tsv-doerzbachklepsau-m1-240825",
+        "homeTeam": {
+            "id": 1241894,
+            "teamId": 19501,
+            "slug": "sg-sv-mulfingen-hollenbach-m1-2024-25",
+            "name": {
+                "full": "SGM Mulfingen\/Hollenbach",
+                "middle": "SGM Mulfingen\/Hollenbach",
+                "short": "SGM Mulfingen\/Hollenbach"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/o5Ymb6JuvEyS\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sg-sv-mulfingen-hollenbach-m1-2024-25",
+            "level": 1,
+            "clubSlug": "sv-mulfingen",
+            "club": {
+                "id": 14789,
+                "name": "SV Mulfingen",
+                "middleName": "SV Mulfingen",
+                "shortName": "SVM",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/Pz9uoOgwvHCv\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
                 },
-                "homeTeamName": "SGM Mulfingen\/Hollenbach",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1723104214,
-                "tickerAuthor": null,
-                "resultForTeam": null
+                "slug": "sv-mulfingen"
             }
-        ]
+        },
+        "awayTeam": {
+            "id": 1241932,
+            "teamId": 19191,
+            "slug": "tsv-doerzbachklepsau-m1-2024-25",
+            "name": {
+                "full": "TSV D\u00f6rzbach\/Klepsau",
+                "middle": "D\u00f6rzb.\/Klep.",
+                "short": "TSVDK"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tsv-doerzbachklepsau-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-doerzbachklepsau",
+            "club": {
+                "id": 14793,
+                "name": "TSV D\u00f6rzbach\/Klepsau",
+                "middleName": "D\u00f6rzb.\/Klep.",
+                "shortName": "TSVDK",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/R55ZVd9Domnd\/",
+                    "description": "",
+                    "source": "",
+                    "svg": false
+                },
+                "slug": "tsv-doerzbachklepsau"
+            }
+        },
+        "kickoff": "2024-08-25T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2114050,
+            "type": "league",
+            "slug": "1",
+            "number": 1
+        },
+        "spectators": null,
+        "updatedAt": 1723104214,
+        "streamUpdatedAt": 1723104214,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
     },
     {
-        "month": 9,
-        "matches": [
-            {
-                "id": 13334652,
-                "slug": "tsv-doerzbachklepsau-m1-sc-michelbachwald-m1-240901",
-                "kickoff": "2024-09-01T15:00:00+02:00",
-                "updatedAt": 1721593937,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241936,
-                    "slug": "sc-michelbachwald-m1-2024-25",
-                    "name": {
-                        "full": "SC Michelbach\/Wald",
-                        "middle": "Michelb.\/Wa.",
-                        "short": "SVMW"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/club\/oSAHIyKSKgFj\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "sc-michelbachwald"
-                },
-                "awayTeamName": "SC Michelbach\/Wald",
-                "streamUpdatedAt": 1721593937,
-                "tickerAuthor": null,
-                "resultForTeam": null
+        "id": 13334649,
+        "slug": "sv-edelfingen-m1-vfb-bad-mergentheim-m1-240825",
+        "homeTeam": {
+            "id": 1241983,
+            "teamId": 18631,
+            "slug": "sg-edelfingen-loeffelstelz-m1-2024-25",
+            "name": {
+                "full": "SG Edelfingen \/ L\u00f6ffelstelz,",
+                "middle": "SG Edelfingen",
+                "short": "SG E"
             },
-            {
-                "id": 13334660,
-                "slug": "tv-niederstetten-m1-tsv-doerzbachklepsau-m1-240908",
-                "kickoff": "2024-09-08T15:00:00+02:00",
-                "updatedAt": 1721593939,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241895,
-                    "slug": "tv-niederstetten-m1-2024-25",
-                    "name": {
-                        "full": "TV Niederstetten",
-                        "middle": "Niederstett.",
-                        "short": "TVN"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/club\/PU8b2zVtQpGS\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tv-niederstetten"
-                },
-                "homeTeamName": "TV Niederstetten",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1721593939,
-                "tickerAuthor": null,
-                "resultForTeam": null
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/TRn0GJWt2WXC\/",
+                "description": "",
+                "source": "",
+                "svg": false
             },
-            {
-                "id": 13334668,
-                "slug": "tsv-doerzbachklepsau-m1-spvgg-apfelbach-herrenzimmern-1975-m1-240913",
-                "kickoff": "2024-09-13T18:30:00+02:00",
-                "updatedAt": 1721593941,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241934,
-                    "slug": "spvgg-apfelbach-herrenzimmern-1975-m1-2024-25",
-                    "name": {
-                        "full": "SpVgg Apfelbach-Herrenzimmern 1975",
-                        "middle": "Apfelb.-Her.",
-                        "short": "AH"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/club\/vZ1thnuRd7wy\/",
-                        "description": null,
-                        "source": null,
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "spvgg-apfelbach-herrenzimmern-1975"
-                },
-                "awayTeamName": "SpVgg Apfelbach-Herrenzimmern 1975",
-                "streamUpdatedAt": 1721593941,
-                "tickerAuthor": null,
-                "resultForTeam": null
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
             },
-            {
-                "id": 13334681,
-                "slug": "sv-edelfingen-m1-tsv-doerzbachklepsau-m1-240922",
-                "kickoff": "2024-09-22T15:00:00+02:00",
-                "updatedAt": 1721593943,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241983,
-                    "slug": "sg-edelfingen-loeffelstelz-m1-2024-25",
-                    "name": {
-                        "full": "SG Edelfingen \/ L\u00f6ffelstelz,",
-                        "middle": "SG Edelfingen",
-                        "short": "SG E"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/TRn0GJWt2WXC\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "sv-edelfingen"
+            "linkUrl": "\/team\/sg-edelfingen-loeffelstelz-m1-2024-25",
+            "level": 1,
+            "clubSlug": "sv-edelfingen",
+            "club": {
+                "id": 14760,
+                "name": "SV Edelfingen",
+                "middleName": "Edelfingen",
+                "shortName": "SVE",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/zjW04E1BpKoF\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
                 },
-                "homeTeamName": "SG Edelfingen \/ L\u00f6ffelstelz,",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1721593943,
-                "tickerAuthor": null,
-                "resultForTeam": null
-            },
-            {
-                "id": 13334684,
-                "slug": "tsv-doerzbachklepsau-m1-vfb-bad-mergentheim-m1-240929",
-                "kickoff": "2024-09-29T15:00:00+02:00",
-                "updatedAt": 1721593944,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241896,
-                    "slug": "vfb-bad-mergentheim-m1-2024-25",
-                    "name": {
-                        "full": "VfB Bad Mergentheim",
-                        "middle": "Bad Mergent.",
-                        "short": "VFBBM"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/club\/Og6QUjuJgr57\/",
-                        "description": null,
-                        "source": null,
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "vfb-bad-mergentheim"
-                },
-                "awayTeamName": "VfB Bad Mergentheim",
-                "streamUpdatedAt": 1721593944,
-                "tickerAuthor": null,
-                "resultForTeam": null
+                "slug": "sv-edelfingen"
             }
-        ]
+        },
+        "awayTeam": {
+            "id": 1241896,
+            "teamId": 19167,
+            "slug": "vfb-bad-mergentheim-m1-2024-25",
+            "name": {
+                "full": "VfB Bad Mergentheim",
+                "middle": "Bad Mergent.",
+                "short": "VFBBM"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/Og6QUjuJgr57\/",
+                "description": null,
+                "source": null,
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/vfb-bad-mergentheim-m1-2024-25",
+            "level": 1,
+            "clubSlug": "vfb-bad-mergentheim",
+            "club": {
+                "id": 14799,
+                "name": "VfB Bad Mergentheim",
+                "middleName": "Bad Mergent.",
+                "shortName": "VFBBM",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/Og6QUjuJgr57\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "vfb-bad-mergentheim"
+            }
+        },
+        "kickoff": "2024-08-25T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2114050,
+            "type": "league",
+            "slug": "1",
+            "number": 1
+        },
+        "spectators": null,
+        "updatedAt": 1721593936,
+        "streamUpdatedAt": 1721593936,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
     },
     {
-        "month": 10,
-        "matches": [
-            {
-                "id": 13334695,
-                "slug": "1-fc-taubertal-tauberrettersheim-m1-tsv-doerzbachklepsau-m1-241006",
-                "kickoff": "2024-10-06T15:00:00+02:00",
-                "updatedAt": 1721593956,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241931,
-                    "slug": "sg-taubertal-roettingen-m1-2024-25",
-                    "name": {
-                        "full": "SG Taubertal \/ R\u00f6ttingen",
-                        "middle": "SG Taubertal",
-                        "short": "SG T"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/pxKBHgWFwSwa\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "1-fc-taubertal-tauberrettersheim"
-                },
-                "homeTeamName": "SG Taubertal \/ R\u00f6ttingen",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1721593956,
-                "tickerAuthor": null,
-                "resultForTeam": null
+        "id": 13334648,
+        "slug": "tsv-niedernhall-m1-sv-harthausen-1970-m1-240825",
+        "homeTeam": {
+            "id": 1241898,
+            "teamId": 18824,
+            "slug": "sg-niedernhall-tsv-weissbach-m1-2024-25",
+            "name": {
+                "full": "SGM Niedernhall\/Wei\u00dfbach",
+                "middle": "SGM Niedernhall\/Wei\u00dfbach",
+                "short": "SGM Niedernhall\/Wei\u00dfbach"
             },
-            {
-                "id": 13334700,
-                "slug": "tsv-doerzbachklepsau-m1-fv-kuenzelsau-m1-241013",
-                "kickoff": "2024-10-13T15:00:00+02:00",
-                "updatedAt": 1721593958,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241937,
-                    "slug": "fv-kuenzelsau-m1-2024-25",
-                    "name": {
-                        "full": "FV K\u00fcnzelsau",
-                        "middle": "K\u00fcnzelsau",
-                        "short": "FVK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/club\/IfS4lZb14smT\/",
-                        "description": null,
-                        "source": null,
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "fv-kuenzelsau"
-                },
-                "awayTeamName": "FV K\u00fcnzelsau",
-                "streamUpdatedAt": 1721593958,
-                "tickerAuthor": null,
-                "resultForTeam": null
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/bCRePpphNhyy\/",
+                "description": "",
+                "source": "",
+                "svg": false
             },
-            {
-                "id": 13334709,
-                "slug": "ssv-gaisbach-m1-tsv-doerzbachklepsau-m1-241020",
-                "kickoff": "2024-10-20T15:00:00+02:00",
-                "updatedAt": 1721593961,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241897,
-                    "slug": "ssv-gaisbach-m1-2024-25",
-                    "name": {
-                        "full": "SSV Gaisbach",
-                        "middle": "Gaisbach",
-                        "short": "SSVG"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/x2Ck1mSzFfQg\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "ssv-gaisbach"
-                },
-                "homeTeamName": "SSV Gaisbach",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1721593961,
-                "tickerAuthor": null,
-                "resultForTeam": null
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
             },
-            {
-                "id": 13334716,
-                "slug": "tsv-doerzbachklepsau-m1-tsv-neuenstein-m1-241027",
-                "kickoff": "2024-10-27T15:00:00+01:00",
-                "updatedAt": 1721593935,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
+            "linkUrl": "\/team\/sg-niedernhall-tsv-weissbach-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-niedernhall",
+            "club": {
+                "id": 14812,
+                "name": "TSV Niedernhall",
+                "middleName": "Niedernhall",
+                "shortName": "TSVN",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/cnUQwJlTKO3j\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
                 },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241930,
-                    "slug": "tsv-neuenstein-m1-2024-25",
-                    "name": {
-                        "full": "TSV Neuenstein",
-                        "middle": "TSV Neuenst.",
-                        "short": "TSVN"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/club\/ZmpXBIAowPp1\/",
-                        "description": null,
-                        "source": null,
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-neuenstein"
-                },
-                "awayTeamName": "TSV Neuenstein",
-                "streamUpdatedAt": 1721593935,
-                "tickerAuthor": null,
-                "resultForTeam": null
+                "slug": "tsv-niedernhall"
             }
-        ]
+        },
+        "awayTeam": {
+            "id": 1241928,
+            "teamId": 18650,
+            "slug": "sv-harthausen-1970-m1-2024-25",
+            "name": {
+                "full": "SV Harthausen 1970",
+                "middle": "SV Harthaus.",
+                "short": "SVH"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/VJCSX5gCGZdy\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sv-harthausen-1970-m1-2024-25",
+            "level": 1,
+            "clubSlug": "sv-harthausen-1970",
+            "club": {
+                "id": 14757,
+                "name": "SV Harthausen 1970",
+                "middleName": "SV Harthaus.",
+                "shortName": "SVH",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/JYw8Cwt3zARg\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "sv-harthausen-1970"
+            }
+        },
+        "kickoff": "2024-08-25T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2114050,
+            "type": "league",
+            "slug": "1",
+            "number": 1
+        },
+        "spectators": null,
+        "updatedAt": 1721593936,
+        "streamUpdatedAt": 1721593936,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
     },
     {
-        "month": 11,
-        "matches": [
-            {
-                "id": 13334724,
-                "slug": "tsv-doerzbachklepsau-m1-tsv-kupferzell-m1-241103",
-                "kickoff": "2024-11-03T14:30:00+01:00",
-                "updatedAt": 1721593937,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241893,
-                    "slug": "tsv-kupferzell-m1-2024-25",
-                    "name": {
-                        "full": "TSV Kupferzell",
-                        "middle": "Kupferzell",
-                        "short": "TSVK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/club\/GsyHg1s6Gj0T\/",
-                        "description": null,
-                        "source": null,
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-kupferzell"
-                },
-                "awayTeamName": "TSV Kupferzell",
-                "streamUpdatedAt": 1721593937,
-                "tickerAuthor": null,
-                "resultForTeam": null
+        "id": 13334647,
+        "slug": "tsv-bitzfeld-m1-tsv-kupferzell-m1-240825",
+        "homeTeam": {
+            "id": 1241926,
+            "teamId": 18910,
+            "slug": "sg-tsv-bitzfeld-tsv-schwab-m1-2024-25",
+            "name": {
+                "full": "SG TSV Bitzfeld \/ TSV Schwab,",
+                "middle": "SG TSV Bitzfeld",
+                "short": "SG T"
             },
-            {
-                "id": 13334730,
-                "slug": "sv-harthausen-1970-m1-tsv-doerzbachklepsau-m1-241110",
-                "kickoff": "2024-11-10T14:30:00+01:00",
-                "updatedAt": 1721593938,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241928,
-                    "slug": "sv-harthausen-1970-m1-2024-25",
-                    "name": {
-                        "full": "SV Harthausen 1970",
-                        "middle": "SV Harthaus.",
-                        "short": "SVH"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/VJCSX5gCGZdy\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "sv-harthausen-1970"
-                },
-                "homeTeamName": "SV Harthausen 1970",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1721593938,
-                "tickerAuthor": null,
-                "resultForTeam": null
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/nhkTpzNqLeij\/",
+                "description": "",
+                "source": "",
+                "svg": false
             },
-            {
-                "id": 13334740,
-                "slug": "tsv-doerzbachklepsau-m1-tsv-zweiflingen-m1-241117",
-                "kickoff": "2024-11-17T14:30:00+01:00",
-                "updatedAt": 1721593948,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241972,
-                    "slug": "tsv-zweiflingen-m1-2024-25",
-                    "name": {
-                        "full": "TSV Zweiflingen",
-                        "middle": "TSV Zweifli.",
-                        "short": "TSVZ"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/BLRZO31nYeYO\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-zweiflingen"
-                },
-                "awayTeamName": "TSV Zweiflingen",
-                "streamUpdatedAt": 1721593948,
-                "tickerAuthor": null,
-                "resultForTeam": null
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
             },
-            {
-                "id": 13334752,
-                "slug": "tsv-niedernhall-m1-tsv-doerzbachklepsau-m1-241123",
-                "kickoff": "2024-11-23T14:30:00+01:00",
-                "updatedAt": 1721593950,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241898,
-                    "slug": "sg-niedernhall-tsv-weissbach-m1-2024-25",
-                    "name": {
-                        "full": "SGM Niedernhall\/Wei\u00dfbach",
-                        "middle": "SGM Niedernhall\/Wei\u00dfbach",
-                        "short": "SGM Nieder"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/bCRePpphNhyy\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-niedernhall"
+            "linkUrl": "\/team\/sg-tsv-bitzfeld-tsv-schwab-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-bitzfeld",
+            "club": {
+                "id": 14733,
+                "name": "TSV Bitzfeld",
+                "middleName": "TSV Bitzfeld",
+                "shortName": "TSVB",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/QpAcoRKfgv3U\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
                 },
-                "homeTeamName": "SGM Niedernhall\/Wei\u00dfbach",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1721593950,
-                "tickerAuthor": null,
-                "resultForTeam": null
-            },
-            {
-                "id": 13334756,
-                "slug": "tsv-doerzbachklepsau-m1-tsv-bitzfeld-m1-241130",
-                "kickoff": "2024-11-30T16:00:00+01:00",
-                "updatedAt": 1721593950,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241926,
-                    "slug": "sg-tsv-bitzfeld-tsv-schwab-m1-2024-25",
-                    "name": {
-                        "full": "SG TSV Bitzfeld \/ TSV Schwab,",
-                        "middle": "SG TSV Bitzfeld",
-                        "short": "SG T"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/nhkTpzNqLeij\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-bitzfeld"
-                },
-                "awayTeamName": "SG TSV Bitzfeld \/ TSV Schwab,",
-                "streamUpdatedAt": 1721593950,
-                "tickerAuthor": null,
-                "resultForTeam": null
+                "slug": "tsv-bitzfeld"
             }
-        ]
+        },
+        "awayTeam": {
+            "id": 1241893,
+            "teamId": 19405,
+            "slug": "tsv-kupferzell-m1-2024-25",
+            "name": {
+                "full": "TSV Kupferzell",
+                "middle": "Kupferzell",
+                "short": "TSVK"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/GsyHg1s6Gj0T\/",
+                "description": null,
+                "source": null,
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tsv-kupferzell-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-kupferzell",
+            "club": {
+                "id": 14772,
+                "name": "TSV Kupferzell",
+                "middleName": "Kupferzell",
+                "shortName": "TSVK",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/GsyHg1s6Gj0T\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "tsv-kupferzell"
+            }
+        },
+        "kickoff": "2024-08-25T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2114050,
+            "type": "league",
+            "slug": "1",
+            "number": 1
+        },
+        "spectators": null,
+        "updatedAt": 1721593936,
+        "streamUpdatedAt": 1721593936,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
     },
     {
-        "month": 2,
-        "matches": [
-            {
-                "id": 13585652,
-                "slug": "tsv-doerzbachklepsau-m1-sv-mulfingen-m1-250223",
-                "kickoff": "2025-02-23T14:30:00+01:00",
-                "updatedAt": 1723104219,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
+        "id": 13334645,
+        "slug": "sc-michelbachwald-m1-ssv-gaisbach-m1-240825",
+        "homeTeam": {
+            "id": 1241936,
+            "teamId": 19497,
+            "slug": "sc-michelbachwald-m1-2024-25",
+            "name": {
+                "full": "SC Michelbach\/Wald",
+                "middle": "Michelb.\/Wa.",
+                "short": "SVMW"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/oSAHIyKSKgFj\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sc-michelbachwald-m1-2024-25",
+            "level": 1,
+            "clubSlug": "sc-michelbachwald",
+            "club": {
+                "id": 14817,
+                "name": "SC Michelbach\/Wald",
+                "middleName": "Michelb.\/Wa.",
+                "shortName": "SVMW",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/oSAHIyKSKgFj\/",
+                    "description": "",
+                    "source": "",
+                    "svg": false
                 },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241894,
-                    "slug": "sg-sv-mulfingen-hollenbach-m1-2024-25",
-                    "name": {
-                        "full": "SGM Mulfingen\/Hollenbach",
-                        "middle": "SGM Mulfingen\/Hollenbach",
-                        "short": "SGM Mulfin"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/o5Ymb6JuvEyS\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "sv-mulfingen"
-                },
-                "awayTeamName": "SGM Mulfingen\/Hollenbach",
-                "streamUpdatedAt": 1723104219,
-                "tickerAuthor": null,
-                "resultForTeam": null
+                "slug": "sc-michelbachwald"
             }
-        ]
+        },
+        "awayTeam": {
+            "id": 1241897,
+            "teamId": 20476,
+            "slug": "ssv-gaisbach-m1-2024-25",
+            "name": {
+                "full": "SSV Gaisbach",
+                "middle": "Gaisbach",
+                "short": "SSVG"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/x2Ck1mSzFfQg\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/ssv-gaisbach-m1-2024-25",
+            "level": 1,
+            "clubSlug": "ssv-gaisbach",
+            "club": {
+                "id": 14811,
+                "name": "SSV Gaisbach",
+                "middleName": "Gaisbach",
+                "shortName": "SSVG",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/MzFJlwPUTAxp\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "ssv-gaisbach"
+            }
+        },
+        "kickoff": "2024-08-25T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2114050,
+            "type": "league",
+            "slug": "1",
+            "number": 1
+        },
+        "spectators": null,
+        "updatedAt": 1721593936,
+        "streamUpdatedAt": 1721593936,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
     },
     {
-        "month": 3,
-        "matches": [
-            {
-                "id": 13334772,
-                "slug": "sc-michelbachwald-m1-tsv-doerzbachklepsau-m1-250302",
-                "kickoff": "2025-03-02T15:00:00+01:00",
-                "updatedAt": 1721593966,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241936,
-                    "slug": "sc-michelbachwald-m1-2024-25",
-                    "name": {
-                        "full": "SC Michelbach\/Wald",
-                        "middle": "Michelb.\/Wa.",
-                        "short": "SVMW"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/club\/oSAHIyKSKgFj\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "sc-michelbachwald"
-                },
-                "homeTeamName": "SC Michelbach\/Wald",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1721593966,
-                "tickerAuthor": null,
-                "resultForTeam": null
+        "id": 13334644,
+        "slug": "tv-niederstetten-m1-fv-kuenzelsau-m1-240825",
+        "homeTeam": {
+            "id": 1241895,
+            "teamId": 19201,
+            "slug": "tv-niederstetten-m1-2024-25",
+            "name": {
+                "full": "TV Niederstetten",
+                "middle": "Niederstett.",
+                "short": "TVN"
             },
-            {
-                "id": 13334780,
-                "slug": "tsv-doerzbachklepsau-m1-tv-niederstetten-m1-250309",
-                "kickoff": "2025-03-09T15:00:00+01:00",
-                "updatedAt": 1721593969,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241895,
-                    "slug": "tv-niederstetten-m1-2024-25",
-                    "name": {
-                        "full": "TV Niederstetten",
-                        "middle": "Niederstett.",
-                        "short": "TVN"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/club\/PU8b2zVtQpGS\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tv-niederstetten"
-                },
-                "awayTeamName": "TV Niederstetten",
-                "streamUpdatedAt": 1721593969,
-                "tickerAuthor": null,
-                "resultForTeam": null
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/PU8b2zVtQpGS\/",
+                "description": "",
+                "source": "",
+                "svg": false
             },
-            {
-                "id": 13334788,
-                "slug": "spvgg-apfelbach-herrenzimmern-1975-m1-tsv-doerzbachklepsau-m1-250316",
-                "kickoff": "2025-03-16T15:00:00+01:00",
-                "updatedAt": 1721593947,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241934,
-                    "slug": "spvgg-apfelbach-herrenzimmern-1975-m1-2024-25",
-                    "name": {
-                        "full": "SpVgg Apfelbach-Herrenzimmern 1975",
-                        "middle": "Apfelb.-Her.",
-                        "short": "AH"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/club\/vZ1thnuRd7wy\/",
-                        "description": null,
-                        "source": null,
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "spvgg-apfelbach-herrenzimmern-1975"
-                },
-                "homeTeamName": "SpVgg Apfelbach-Herrenzimmern 1975",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1721593947,
-                "tickerAuthor": null,
-                "resultForTeam": null
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
             },
-            {
-                "id": 13334801,
-                "slug": "tsv-doerzbachklepsau-m1-sv-edelfingen-m1-250323",
-                "kickoff": "2025-03-23T15:00:00+01:00",
-                "updatedAt": 1721593952,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
+            "linkUrl": "\/team\/tv-niederstetten-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tv-niederstetten",
+            "club": {
+                "id": 14792,
+                "name": "TV Niederstetten",
+                "middleName": "Niederstett.",
+                "shortName": "TVN",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/PU8b2zVtQpGS\/",
+                    "description": "",
+                    "source": "",
+                    "svg": false
                 },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241983,
-                    "slug": "sg-edelfingen-loeffelstelz-m1-2024-25",
-                    "name": {
-                        "full": "SG Edelfingen \/ L\u00f6ffelstelz,",
-                        "middle": "SG Edelfingen",
-                        "short": "SG E"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/TRn0GJWt2WXC\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "sv-edelfingen"
-                },
-                "awayTeamName": "SG Edelfingen \/ L\u00f6ffelstelz,",
-                "streamUpdatedAt": 1721593952,
-                "tickerAuthor": null,
-                "resultForTeam": null
-            },
-            {
-                "id": 13334804,
-                "slug": "vfb-bad-mergentheim-m1-tsv-doerzbachklepsau-m1-250330",
-                "kickoff": "2025-03-30T15:00:00+02:00",
-                "updatedAt": 1721593953,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241896,
-                    "slug": "vfb-bad-mergentheim-m1-2024-25",
-                    "name": {
-                        "full": "VfB Bad Mergentheim",
-                        "middle": "Bad Mergent.",
-                        "short": "VFBBM"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/club\/Og6QUjuJgr57\/",
-                        "description": null,
-                        "source": null,
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "vfb-bad-mergentheim"
-                },
-                "homeTeamName": "VfB Bad Mergentheim",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1721593953,
-                "tickerAuthor": null,
-                "resultForTeam": null
+                "slug": "tv-niederstetten"
             }
-        ]
+        },
+        "awayTeam": {
+            "id": 1241937,
+            "teamId": 19485,
+            "slug": "fv-kuenzelsau-m1-2024-25",
+            "name": {
+                "full": "FV K\u00fcnzelsau",
+                "middle": "K\u00fcnzelsau",
+                "short": "FVK"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/IfS4lZb14smT\/",
+                "description": null,
+                "source": null,
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/fv-kuenzelsau-m1-2024-25",
+            "level": 1,
+            "clubSlug": "fv-kuenzelsau",
+            "club": {
+                "id": 14819,
+                "name": "FV K\u00fcnzelsau",
+                "middleName": "K\u00fcnzelsau",
+                "shortName": "FVK",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/IfS4lZb14smT\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "fv-kuenzelsau"
+            }
+        },
+        "kickoff": "2024-08-25T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2114050,
+            "type": "league",
+            "slug": "1",
+            "number": 1
+        },
+        "spectators": null,
+        "updatedAt": 1721593935,
+        "streamUpdatedAt": 1721593935,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
     },
     {
-        "month": 4,
-        "matches": [
-            {
-                "id": 13334815,
-                "slug": "tsv-doerzbachklepsau-m1-1-fc-taubertal-tauberrettersheim-m1-250406",
-                "kickoff": "2025-04-06T15:00:00+02:00",
-                "updatedAt": 1721593944,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241931,
-                    "slug": "sg-taubertal-roettingen-m1-2024-25",
-                    "name": {
-                        "full": "SG Taubertal \/ R\u00f6ttingen",
-                        "middle": "SG Taubertal",
-                        "short": "SG T"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/pxKBHgWFwSwa\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "1-fc-taubertal-tauberrettersheim"
-                },
-                "awayTeamName": "SG Taubertal \/ R\u00f6ttingen",
-                "streamUpdatedAt": 1721593944,
-                "tickerAuthor": null,
-                "resultForTeam": null
+        "id": 13334642,
+        "slug": "tsv-neuenstein-m1-tsv-zweiflingen-m1-240825",
+        "homeTeam": {
+            "id": 1241930,
+            "teamId": 19429,
+            "slug": "tsv-neuenstein-m1-2024-25",
+            "name": {
+                "full": "TSV Neuenstein",
+                "middle": "TSV Neuenst.",
+                "short": "TSVN"
             },
-            {
-                "id": 13334820,
-                "slug": "fv-kuenzelsau-m1-tsv-doerzbachklepsau-m1-250413",
-                "kickoff": "2025-04-13T15:00:00+02:00",
-                "updatedAt": 1721593945,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241937,
-                    "slug": "fv-kuenzelsau-m1-2024-25",
-                    "name": {
-                        "full": "FV K\u00fcnzelsau",
-                        "middle": "K\u00fcnzelsau",
-                        "short": "FVK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/club\/IfS4lZb14smT\/",
-                        "description": null,
-                        "source": null,
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "fv-kuenzelsau"
-                },
-                "homeTeamName": "FV K\u00fcnzelsau",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1721593945,
-                "tickerAuthor": null,
-                "resultForTeam": null
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/ZmpXBIAowPp1\/",
+                "description": null,
+                "source": null,
+                "svg": false
             },
-            {
-                "id": 13334829,
-                "slug": "tsv-doerzbachklepsau-m1-ssv-gaisbach-m1-250427",
-                "kickoff": "2025-04-27T15:00:00+02:00",
-                "updatedAt": 1721593947,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tsv-neuenstein-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-neuenstein",
+            "club": {
+                "id": 14769,
+                "name": "TSV Neuenstein",
+                "middleName": "TSV Neuenst.",
+                "shortName": "TSVN",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/ZmpXBIAowPp1\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
                 },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241897,
-                    "slug": "ssv-gaisbach-m1-2024-25",
-                    "name": {
-                        "full": "SSV Gaisbach",
-                        "middle": "Gaisbach",
-                        "short": "SSVG"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/x2Ck1mSzFfQg\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "ssv-gaisbach"
-                },
-                "awayTeamName": "SSV Gaisbach",
-                "streamUpdatedAt": 1721593947,
-                "tickerAuthor": null,
-                "resultForTeam": null
+                "slug": "tsv-neuenstein"
             }
-        ]
+        },
+        "awayTeam": {
+            "id": 1241972,
+            "teamId": 19421,
+            "slug": "tsv-zweiflingen-m1-2024-25",
+            "name": {
+                "full": "TSV Zweiflingen",
+                "middle": "TSV Zweifli.",
+                "short": "TSVZ"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/BLRZO31nYeYO\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tsv-zweiflingen-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-zweiflingen",
+            "club": {
+                "id": 14770,
+                "name": "TSV Zweiflingen",
+                "middleName": "TSV Zweifli.",
+                "shortName": "TSVZ",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/uvowmZ3Szdrq\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "tsv-zweiflingen"
+            }
+        },
+        "kickoff": "2024-08-25T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2114050,
+            "type": "league",
+            "slug": "1",
+            "number": 1
+        },
+        "spectators": null,
+        "updatedAt": 1721593935,
+        "streamUpdatedAt": 1721593935,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
     },
     {
-        "month": 5,
-        "matches": [
-            {
-                "id": 13334836,
-                "slug": "tsv-neuenstein-m1-tsv-doerzbachklepsau-m1-250504",
-                "kickoff": "2025-05-04T15:00:00+02:00",
-                "updatedAt": 1721593940,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241930,
-                    "slug": "tsv-neuenstein-m1-2024-25",
-                    "name": {
-                        "full": "TSV Neuenstein",
-                        "middle": "TSV Neuenst.",
-                        "short": "TSVN"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/club\/ZmpXBIAowPp1\/",
-                        "description": null,
-                        "source": null,
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-neuenstein"
-                },
-                "homeTeamName": "TSV Neuenstein",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1721593940,
-                "tickerAuthor": null,
-                "resultForTeam": null
+        "id": 13585638,
+        "slug": "tsv-kupferzell-m1-sv-mulfingen-m1-240901",
+        "homeTeam": {
+            "id": 1241893,
+            "teamId": 19405,
+            "slug": "tsv-kupferzell-m1-2024-25",
+            "name": {
+                "full": "TSV Kupferzell",
+                "middle": "Kupferzell",
+                "short": "TSVK"
             },
-            {
-                "id": 13334844,
-                "slug": "tsv-kupferzell-m1-tsv-doerzbachklepsau-m1-250511",
-                "kickoff": "2025-05-11T15:00:00+02:00",
-                "updatedAt": 1721593941,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241893,
-                    "slug": "tsv-kupferzell-m1-2024-25",
-                    "name": {
-                        "full": "TSV Kupferzell",
-                        "middle": "Kupferzell",
-                        "short": "TSVK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/club\/GsyHg1s6Gj0T\/",
-                        "description": null,
-                        "source": null,
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-kupferzell"
-                },
-                "homeTeamName": "TSV Kupferzell",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1721593941,
-                "tickerAuthor": null,
-                "resultForTeam": null
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/GsyHg1s6Gj0T\/",
+                "description": null,
+                "source": null,
+                "svg": false
             },
-            {
-                "id": 13334850,
-                "slug": "tsv-doerzbachklepsau-m1-sv-harthausen-1970-m1-250518",
-                "kickoff": "2025-05-18T15:00:00+02:00",
-                "updatedAt": 1721593942,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241928,
-                    "slug": "sv-harthausen-1970-m1-2024-25",
-                    "name": {
-                        "full": "SV Harthausen 1970",
-                        "middle": "SV Harthaus.",
-                        "short": "SVH"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/VJCSX5gCGZdy\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "sv-harthausen-1970"
-                },
-                "awayTeamName": "SV Harthausen 1970",
-                "streamUpdatedAt": 1721593942,
-                "tickerAuthor": null,
-                "resultForTeam": null
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
             },
-            {
-                "id": 13334860,
-                "slug": "tsv-zweiflingen-m1-tsv-doerzbachklepsau-m1-250525",
-                "kickoff": "2025-05-25T15:00:00+02:00",
-                "updatedAt": 1721593971,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241972,
-                    "slug": "tsv-zweiflingen-m1-2024-25",
-                    "name": {
-                        "full": "TSV Zweiflingen",
-                        "middle": "TSV Zweifli.",
-                        "short": "TSVZ"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/BLRZO31nYeYO\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-zweiflingen"
+            "linkUrl": "\/team\/tsv-kupferzell-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-kupferzell",
+            "club": {
+                "id": 14772,
+                "name": "TSV Kupferzell",
+                "middleName": "Kupferzell",
+                "shortName": "TSVK",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/GsyHg1s6Gj0T\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
                 },
-                "homeTeamName": "TSV Zweiflingen",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1721593971,
-                "tickerAuthor": null,
-                "resultForTeam": null
+                "slug": "tsv-kupferzell"
             }
-        ]
+        },
+        "awayTeam": {
+            "id": 1241894,
+            "teamId": 19501,
+            "slug": "sg-sv-mulfingen-hollenbach-m1-2024-25",
+            "name": {
+                "full": "SGM Mulfingen\/Hollenbach",
+                "middle": "SGM Mulfingen\/Hollenbach",
+                "short": "SGM Mulfingen\/Hollenbach"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/o5Ymb6JuvEyS\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sg-sv-mulfingen-hollenbach-m1-2024-25",
+            "level": 1,
+            "clubSlug": "sv-mulfingen",
+            "club": {
+                "id": 14789,
+                "name": "SV Mulfingen",
+                "middleName": "SV Mulfingen",
+                "shortName": "SVM",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/Pz9uoOgwvHCv\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "sv-mulfingen"
+            }
+        },
+        "kickoff": "2024-09-01T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146901,
+            "type": "league",
+            "slug": "2",
+            "number": 2
+        },
+        "spectators": null,
+        "updatedAt": 1723104215,
+        "streamUpdatedAt": 1723104215,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
     },
     {
-        "month": 6,
-        "matches": [
-            {
-                "id": 13334872,
-                "slug": "tsv-doerzbachklepsau-m1-tsv-niedernhall-m1-250601",
-                "kickoff": "2025-06-01T15:00:00+02:00",
-                "updatedAt": 1721593973,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "homeTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "awayTeam": {
-                    "id": 1241898,
-                    "slug": "sg-niedernhall-tsv-weissbach-m1-2024-25",
-                    "name": {
-                        "full": "SGM Niedernhall\/Wei\u00dfbach",
-                        "middle": "SGM Niedernhall\/Wei\u00dfbach",
-                        "short": "SGM Nieder"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/bCRePpphNhyy\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-niedernhall"
-                },
-                "awayTeamName": "SGM Niedernhall\/Wei\u00dfbach",
-                "streamUpdatedAt": 1721593973,
-                "tickerAuthor": null,
-                "resultForTeam": null
+        "id": 13334657,
+        "slug": "tsv-zweiflingen-m1-tsv-niedernhall-m1-240901",
+        "homeTeam": {
+            "id": 1241972,
+            "teamId": 19421,
+            "slug": "tsv-zweiflingen-m1-2024-25",
+            "name": {
+                "full": "TSV Zweiflingen",
+                "middle": "TSV Zweifli.",
+                "short": "TSVZ"
             },
-            {
-                "id": 13334876,
-                "slug": "tsv-bitzfeld-m1-tsv-doerzbachklepsau-m1-250607",
-                "kickoff": "2025-06-07T15:30:00+02:00",
-                "updatedAt": 1721593973,
-                "competitionName": "Kreisliga A3 Franken",
-                "homeGoal": null,
-                "awayGoal": null,
-                "section": "PRE",
-                "flags": null,
-                "homeTeam": {
-                    "id": 1241926,
-                    "slug": "sg-tsv-bitzfeld-tsv-schwab-m1-2024-25",
-                    "name": {
-                        "full": "SG TSV Bitzfeld \/ TSV Schwab,",
-                        "middle": "SG TSV Bitzfeld",
-                        "short": "SG T"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/nhkTpzNqLeij\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-bitzfeld"
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/BLRZO31nYeYO\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tsv-zweiflingen-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-zweiflingen",
+            "club": {
+                "id": 14770,
+                "name": "TSV Zweiflingen",
+                "middleName": "TSV Zweifli.",
+                "shortName": "TSVZ",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/uvowmZ3Szdrq\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
                 },
-                "homeTeamName": "SG TSV Bitzfeld \/ TSV Schwab,",
-                "awayTeam": {
-                    "id": 1241932,
-                    "slug": "tsv-doerzbachklepsau-m1-2024-25",
-                    "name": {
-                        "full": "TSV D\u00f6rzbach\/Klepsau",
-                        "middle": "D\u00f6rzb.\/Klep.",
-                        "short": "TSVDK"
-                    },
-                    "image": {
-                        "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
-                        "description": "",
-                        "source": "",
-                        "svg": false
-                    },
-                    "origin": "",
-                    "level": 1,
-                    "clubSlug": "tsv-doerzbachklepsau"
-                },
-                "awayTeamName": "TSV D\u00f6rzbach\/Klepsau",
-                "streamUpdatedAt": 1721593973,
-                "tickerAuthor": null,
-                "resultForTeam": null
+                "slug": "tsv-zweiflingen"
             }
-        ]
+        },
+        "awayTeam": {
+            "id": 1241898,
+            "teamId": 18824,
+            "slug": "sg-niedernhall-tsv-weissbach-m1-2024-25",
+            "name": {
+                "full": "SGM Niedernhall\/Wei\u00dfbach",
+                "middle": "SGM Niedernhall\/Wei\u00dfbach",
+                "short": "SGM Niedernhall\/Wei\u00dfbach"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/bCRePpphNhyy\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sg-niedernhall-tsv-weissbach-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-niedernhall",
+            "club": {
+                "id": 14812,
+                "name": "TSV Niedernhall",
+                "middleName": "Niedernhall",
+                "shortName": "TSVN",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/cnUQwJlTKO3j\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "tsv-niedernhall"
+            }
+        },
+        "kickoff": "2024-09-01T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146901,
+            "type": "league",
+            "slug": "2",
+            "number": 2
+        },
+        "spectators": null,
+        "updatedAt": 1721593938,
+        "streamUpdatedAt": 1721593938,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13334656,
+        "slug": "vfb-bad-mergentheim-m1-tsv-neuenstein-m1-240901",
+        "homeTeam": {
+            "id": 1241896,
+            "teamId": 19167,
+            "slug": "vfb-bad-mergentheim-m1-2024-25",
+            "name": {
+                "full": "VfB Bad Mergentheim",
+                "middle": "Bad Mergent.",
+                "short": "VFBBM"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/Og6QUjuJgr57\/",
+                "description": null,
+                "source": null,
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/vfb-bad-mergentheim-m1-2024-25",
+            "level": 1,
+            "clubSlug": "vfb-bad-mergentheim",
+            "club": {
+                "id": 14799,
+                "name": "VfB Bad Mergentheim",
+                "middleName": "Bad Mergent.",
+                "shortName": "VFBBM",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/Og6QUjuJgr57\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "vfb-bad-mergentheim"
+            }
+        },
+        "awayTeam": {
+            "id": 1241930,
+            "teamId": 19429,
+            "slug": "tsv-neuenstein-m1-2024-25",
+            "name": {
+                "full": "TSV Neuenstein",
+                "middle": "TSV Neuenst.",
+                "short": "TSVN"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/ZmpXBIAowPp1\/",
+                "description": null,
+                "source": null,
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tsv-neuenstein-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-neuenstein",
+            "club": {
+                "id": 14769,
+                "name": "TSV Neuenstein",
+                "middleName": "TSV Neuenst.",
+                "shortName": "TSVN",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/ZmpXBIAowPp1\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "tsv-neuenstein"
+            }
+        },
+        "kickoff": "2024-09-01T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146901,
+            "type": "league",
+            "slug": "2",
+            "number": 2
+        },
+        "spectators": null,
+        "updatedAt": 1721593938,
+        "streamUpdatedAt": 1721593938,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13334655,
+        "slug": "1-fc-taubertal-tauberrettersheim-m1-sv-edelfingen-m1-240901",
+        "homeTeam": {
+            "id": 1241931,
+            "teamId": 19518,
+            "slug": "sg-taubertal-roettingen-m1-2024-25",
+            "name": {
+                "full": "SG Taubertal \/ R\u00f6ttingen",
+                "middle": "SG Taubertal",
+                "short": "SG T"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/pxKBHgWFwSwa\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sg-taubertal-roettingen-m1-2024-25",
+            "level": 1,
+            "clubSlug": "1-fc-taubertal-tauberrettersheim",
+            "club": {
+                "id": 14790,
+                "name": "1. FC Taubertal Tauberrettersheim",
+                "middleName": "Taubertal",
+                "shortName": "1.FCT",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/uoy0UDqToLfv\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "1-fc-taubertal-tauberrettersheim"
+            }
+        },
+        "awayTeam": {
+            "id": 1241983,
+            "teamId": 18631,
+            "slug": "sg-edelfingen-loeffelstelz-m1-2024-25",
+            "name": {
+                "full": "SG Edelfingen \/ L\u00f6ffelstelz,",
+                "middle": "SG Edelfingen",
+                "short": "SG E"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/TRn0GJWt2WXC\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sg-edelfingen-loeffelstelz-m1-2024-25",
+            "level": 1,
+            "clubSlug": "sv-edelfingen",
+            "club": {
+                "id": 14760,
+                "name": "SV Edelfingen",
+                "middleName": "Edelfingen",
+                "shortName": "SVE",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/zjW04E1BpKoF\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "sv-edelfingen"
+            }
+        },
+        "kickoff": "2024-09-01T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146901,
+            "type": "league",
+            "slug": "2",
+            "number": 2
+        },
+        "spectators": null,
+        "updatedAt": 1721593938,
+        "streamUpdatedAt": 1721593938,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13334654,
+        "slug": "fv-kuenzelsau-m1-spvgg-apfelbach-herrenzimmern-1975-m1-240901",
+        "homeTeam": {
+            "id": 1241937,
+            "teamId": 19485,
+            "slug": "fv-kuenzelsau-m1-2024-25",
+            "name": {
+                "full": "FV K\u00fcnzelsau",
+                "middle": "K\u00fcnzelsau",
+                "short": "FVK"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/IfS4lZb14smT\/",
+                "description": null,
+                "source": null,
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/fv-kuenzelsau-m1-2024-25",
+            "level": 1,
+            "clubSlug": "fv-kuenzelsau",
+            "club": {
+                "id": 14819,
+                "name": "FV K\u00fcnzelsau",
+                "middleName": "K\u00fcnzelsau",
+                "shortName": "FVK",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/IfS4lZb14smT\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "fv-kuenzelsau"
+            }
+        },
+        "awayTeam": {
+            "id": 1241934,
+            "teamId": 19138,
+            "slug": "spvgg-apfelbach-herrenzimmern-1975-m1-2024-25",
+            "name": {
+                "full": "SpVgg Apfelbach-Herrenzimmern 1975",
+                "middle": "Apfelb.-Her.",
+                "short": "AH"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/vZ1thnuRd7wy\/",
+                "description": null,
+                "source": null,
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/spvgg-apfelbach-herrenzimmern-1975-m1-2024-25",
+            "level": 1,
+            "clubSlug": "spvgg-apfelbach-herrenzimmern-1975",
+            "club": {
+                "id": 14802,
+                "name": "SpVgg Apfelbach-Herrenzimmern 1975",
+                "middleName": "Apfelb.-Her.",
+                "shortName": "AH",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/vZ1thnuRd7wy\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "spvgg-apfelbach-herrenzimmern-1975"
+            }
+        },
+        "kickoff": "2024-09-01T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146901,
+            "type": "league",
+            "slug": "2",
+            "number": 2
+        },
+        "spectators": null,
+        "updatedAt": 1721593938,
+        "streamUpdatedAt": 1721593938,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13334653,
+        "slug": "ssv-gaisbach-m1-tv-niederstetten-m1-240901",
+        "homeTeam": {
+            "id": 1241897,
+            "teamId": 20476,
+            "slug": "ssv-gaisbach-m1-2024-25",
+            "name": {
+                "full": "SSV Gaisbach",
+                "middle": "Gaisbach",
+                "short": "SSVG"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/x2Ck1mSzFfQg\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/ssv-gaisbach-m1-2024-25",
+            "level": 1,
+            "clubSlug": "ssv-gaisbach",
+            "club": {
+                "id": 14811,
+                "name": "SSV Gaisbach",
+                "middleName": "Gaisbach",
+                "shortName": "SSVG",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/MzFJlwPUTAxp\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "ssv-gaisbach"
+            }
+        },
+        "awayTeam": {
+            "id": 1241895,
+            "teamId": 19201,
+            "slug": "tv-niederstetten-m1-2024-25",
+            "name": {
+                "full": "TV Niederstetten",
+                "middle": "Niederstett.",
+                "short": "TVN"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/PU8b2zVtQpGS\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tv-niederstetten-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tv-niederstetten",
+            "club": {
+                "id": 14792,
+                "name": "TV Niederstetten",
+                "middleName": "Niederstett.",
+                "shortName": "TVN",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/PU8b2zVtQpGS\/",
+                    "description": "",
+                    "source": "",
+                    "svg": false
+                },
+                "slug": "tv-niederstetten"
+            }
+        },
+        "kickoff": "2024-09-01T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146901,
+            "type": "league",
+            "slug": "2",
+            "number": 2
+        },
+        "spectators": null,
+        "updatedAt": 1721593937,
+        "streamUpdatedAt": 1721593937,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13334652,
+        "slug": "tsv-doerzbachklepsau-m1-sc-michelbachwald-m1-240901",
+        "homeTeam": {
+            "id": 1241932,
+            "teamId": 19191,
+            "slug": "tsv-doerzbachklepsau-m1-2024-25",
+            "name": {
+                "full": "TSV D\u00f6rzbach\/Klepsau",
+                "middle": "D\u00f6rzb.\/Klep.",
+                "short": "TSVDK"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tsv-doerzbachklepsau-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-doerzbachklepsau",
+            "club": {
+                "id": 14793,
+                "name": "TSV D\u00f6rzbach\/Klepsau",
+                "middleName": "D\u00f6rzb.\/Klep.",
+                "shortName": "TSVDK",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/R55ZVd9Domnd\/",
+                    "description": "",
+                    "source": "",
+                    "svg": false
+                },
+                "slug": "tsv-doerzbachklepsau"
+            }
+        },
+        "awayTeam": {
+            "id": 1241936,
+            "teamId": 19497,
+            "slug": "sc-michelbachwald-m1-2024-25",
+            "name": {
+                "full": "SC Michelbach\/Wald",
+                "middle": "Michelb.\/Wa.",
+                "short": "SVMW"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/oSAHIyKSKgFj\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sc-michelbachwald-m1-2024-25",
+            "level": 1,
+            "clubSlug": "sc-michelbachwald",
+            "club": {
+                "id": 14817,
+                "name": "SC Michelbach\/Wald",
+                "middleName": "Michelb.\/Wa.",
+                "shortName": "SVMW",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/oSAHIyKSKgFj\/",
+                    "description": "",
+                    "source": "",
+                    "svg": false
+                },
+                "slug": "sc-michelbachwald"
+            }
+        },
+        "kickoff": "2024-09-01T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146901,
+            "type": "league",
+            "slug": "2",
+            "number": 2
+        },
+        "spectators": null,
+        "updatedAt": 1721593937,
+        "streamUpdatedAt": 1721593937,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13334650,
+        "slug": "sv-harthausen-1970-m1-tsv-bitzfeld-m1-240901",
+        "homeTeam": {
+            "id": 1241928,
+            "teamId": 18650,
+            "slug": "sv-harthausen-1970-m1-2024-25",
+            "name": {
+                "full": "SV Harthausen 1970",
+                "middle": "SV Harthaus.",
+                "short": "SVH"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/VJCSX5gCGZdy\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sv-harthausen-1970-m1-2024-25",
+            "level": 1,
+            "clubSlug": "sv-harthausen-1970",
+            "club": {
+                "id": 14757,
+                "name": "SV Harthausen 1970",
+                "middleName": "SV Harthaus.",
+                "shortName": "SVH",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/JYw8Cwt3zARg\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "sv-harthausen-1970"
+            }
+        },
+        "awayTeam": {
+            "id": 1241926,
+            "teamId": 18910,
+            "slug": "sg-tsv-bitzfeld-tsv-schwab-m1-2024-25",
+            "name": {
+                "full": "SG TSV Bitzfeld \/ TSV Schwab,",
+                "middle": "SG TSV Bitzfeld",
+                "short": "SG T"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/nhkTpzNqLeij\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sg-tsv-bitzfeld-tsv-schwab-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-bitzfeld",
+            "club": {
+                "id": 14733,
+                "name": "TSV Bitzfeld",
+                "middleName": "TSV Bitzfeld",
+                "shortName": "TSVB",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/QpAcoRKfgv3U\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "tsv-bitzfeld"
+            }
+        },
+        "kickoff": "2024-09-01T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146901,
+            "type": "league",
+            "slug": "2",
+            "number": 2
+        },
+        "spectators": null,
+        "updatedAt": 1721593937,
+        "streamUpdatedAt": 1721593937,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13334658,
+        "slug": "tsv-niedernhall-m1-tsv-neuenstein-m1-240906",
+        "homeTeam": {
+            "id": 1241898,
+            "teamId": 18824,
+            "slug": "sg-niedernhall-tsv-weissbach-m1-2024-25",
+            "name": {
+                "full": "SGM Niedernhall\/Wei\u00dfbach",
+                "middle": "SGM Niedernhall\/Wei\u00dfbach",
+                "short": "SGM Niedernhall\/Wei\u00dfbach"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/bCRePpphNhyy\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sg-niedernhall-tsv-weissbach-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-niedernhall",
+            "club": {
+                "id": 14812,
+                "name": "TSV Niedernhall",
+                "middleName": "Niedernhall",
+                "shortName": "TSVN",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/cnUQwJlTKO3j\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "tsv-niedernhall"
+            }
+        },
+        "awayTeam": {
+            "id": 1241930,
+            "teamId": 19429,
+            "slug": "tsv-neuenstein-m1-2024-25",
+            "name": {
+                "full": "TSV Neuenstein",
+                "middle": "TSV Neuenst.",
+                "short": "TSVN"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/ZmpXBIAowPp1\/",
+                "description": null,
+                "source": null,
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tsv-neuenstein-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-neuenstein",
+            "club": {
+                "id": 14769,
+                "name": "TSV Neuenstein",
+                "middleName": "TSV Neuenst.",
+                "shortName": "TSVN",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/ZmpXBIAowPp1\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "tsv-neuenstein"
+            }
+        },
+        "kickoff": "2024-09-06T19:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146902,
+            "type": "league",
+            "slug": "3",
+            "number": 3
+        },
+        "spectators": null,
+        "updatedAt": 1721593938,
+        "streamUpdatedAt": 1721593938,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13585639,
+        "slug": "sv-mulfingen-m1-sv-harthausen-1970-m1-240908",
+        "homeTeam": {
+            "id": 1241894,
+            "teamId": 19501,
+            "slug": "sg-sv-mulfingen-hollenbach-m1-2024-25",
+            "name": {
+                "full": "SGM Mulfingen\/Hollenbach",
+                "middle": "SGM Mulfingen\/Hollenbach",
+                "short": "SGM Mulfingen\/Hollenbach"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/o5Ymb6JuvEyS\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sg-sv-mulfingen-hollenbach-m1-2024-25",
+            "level": 1,
+            "clubSlug": "sv-mulfingen",
+            "club": {
+                "id": 14789,
+                "name": "SV Mulfingen",
+                "middleName": "SV Mulfingen",
+                "shortName": "SVM",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/Pz9uoOgwvHCv\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "sv-mulfingen"
+            }
+        },
+        "awayTeam": {
+            "id": 1241928,
+            "teamId": 18650,
+            "slug": "sv-harthausen-1970-m1-2024-25",
+            "name": {
+                "full": "SV Harthausen 1970",
+                "middle": "SV Harthaus.",
+                "short": "SVH"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/VJCSX5gCGZdy\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sv-harthausen-1970-m1-2024-25",
+            "level": 1,
+            "clubSlug": "sv-harthausen-1970",
+            "club": {
+                "id": 14757,
+                "name": "SV Harthausen 1970",
+                "middleName": "SV Harthaus.",
+                "shortName": "SVH",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/JYw8Cwt3zARg\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "sv-harthausen-1970"
+            }
+        },
+        "kickoff": "2024-09-08T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146902,
+            "type": "league",
+            "slug": "3",
+            "number": 3
+        },
+        "spectators": null,
+        "updatedAt": 1723104215,
+        "streamUpdatedAt": 1723104215,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13334665,
+        "slug": "sv-edelfingen-m1-fv-kuenzelsau-m1-240908",
+        "homeTeam": {
+            "id": 1241983,
+            "teamId": 18631,
+            "slug": "sg-edelfingen-loeffelstelz-m1-2024-25",
+            "name": {
+                "full": "SG Edelfingen \/ L\u00f6ffelstelz,",
+                "middle": "SG Edelfingen",
+                "short": "SG E"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/TRn0GJWt2WXC\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sg-edelfingen-loeffelstelz-m1-2024-25",
+            "level": 1,
+            "clubSlug": "sv-edelfingen",
+            "club": {
+                "id": 14760,
+                "name": "SV Edelfingen",
+                "middleName": "Edelfingen",
+                "shortName": "SVE",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/zjW04E1BpKoF\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "sv-edelfingen"
+            }
+        },
+        "awayTeam": {
+            "id": 1241937,
+            "teamId": 19485,
+            "slug": "fv-kuenzelsau-m1-2024-25",
+            "name": {
+                "full": "FV K\u00fcnzelsau",
+                "middle": "K\u00fcnzelsau",
+                "short": "FVK"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/IfS4lZb14smT\/",
+                "description": null,
+                "source": null,
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/fv-kuenzelsau-m1-2024-25",
+            "level": 1,
+            "clubSlug": "fv-kuenzelsau",
+            "club": {
+                "id": 14819,
+                "name": "FV K\u00fcnzelsau",
+                "middleName": "K\u00fcnzelsau",
+                "shortName": "FVK",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/IfS4lZb14smT\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "fv-kuenzelsau"
+            }
+        },
+        "kickoff": "2024-09-08T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146902,
+            "type": "league",
+            "slug": "3",
+            "number": 3
+        },
+        "spectators": null,
+        "updatedAt": 1721593940,
+        "streamUpdatedAt": 1721593940,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13334664,
+        "slug": "vfb-bad-mergentheim-m1-1-fc-taubertal-tauberrettersheim-m1-240908",
+        "homeTeam": {
+            "id": 1241896,
+            "teamId": 19167,
+            "slug": "vfb-bad-mergentheim-m1-2024-25",
+            "name": {
+                "full": "VfB Bad Mergentheim",
+                "middle": "Bad Mergent.",
+                "short": "VFBBM"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/Og6QUjuJgr57\/",
+                "description": null,
+                "source": null,
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/vfb-bad-mergentheim-m1-2024-25",
+            "level": 1,
+            "clubSlug": "vfb-bad-mergentheim",
+            "club": {
+                "id": 14799,
+                "name": "VfB Bad Mergentheim",
+                "middleName": "Bad Mergent.",
+                "shortName": "VFBBM",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/Og6QUjuJgr57\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "vfb-bad-mergentheim"
+            }
+        },
+        "awayTeam": {
+            "id": 1241931,
+            "teamId": 19518,
+            "slug": "sg-taubertal-roettingen-m1-2024-25",
+            "name": {
+                "full": "SG Taubertal \/ R\u00f6ttingen",
+                "middle": "SG Taubertal",
+                "short": "SG T"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/pxKBHgWFwSwa\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sg-taubertal-roettingen-m1-2024-25",
+            "level": 1,
+            "clubSlug": "1-fc-taubertal-tauberrettersheim",
+            "club": {
+                "id": 14790,
+                "name": "1. FC Taubertal Tauberrettersheim",
+                "middleName": "Taubertal",
+                "shortName": "1.FCT",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/uoy0UDqToLfv\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "1-fc-taubertal-tauberrettersheim"
+            }
+        },
+        "kickoff": "2024-09-08T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146902,
+            "type": "league",
+            "slug": "3",
+            "number": 3
+        },
+        "spectators": null,
+        "updatedAt": 1721593940,
+        "streamUpdatedAt": 1721593940,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13334663,
+        "slug": "tsv-bitzfeld-m1-tsv-zweiflingen-m1-240908",
+        "homeTeam": {
+            "id": 1241926,
+            "teamId": 18910,
+            "slug": "sg-tsv-bitzfeld-tsv-schwab-m1-2024-25",
+            "name": {
+                "full": "SG TSV Bitzfeld \/ TSV Schwab,",
+                "middle": "SG TSV Bitzfeld",
+                "short": "SG T"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/nhkTpzNqLeij\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sg-tsv-bitzfeld-tsv-schwab-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-bitzfeld",
+            "club": {
+                "id": 14733,
+                "name": "TSV Bitzfeld",
+                "middleName": "TSV Bitzfeld",
+                "shortName": "TSVB",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/QpAcoRKfgv3U\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "tsv-bitzfeld"
+            }
+        },
+        "awayTeam": {
+            "id": 1241972,
+            "teamId": 19421,
+            "slug": "tsv-zweiflingen-m1-2024-25",
+            "name": {
+                "full": "TSV Zweiflingen",
+                "middle": "TSV Zweifli.",
+                "short": "TSVZ"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/BLRZO31nYeYO\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tsv-zweiflingen-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-zweiflingen",
+            "club": {
+                "id": 14770,
+                "name": "TSV Zweiflingen",
+                "middleName": "TSV Zweifli.",
+                "shortName": "TSVZ",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/uvowmZ3Szdrq\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "tsv-zweiflingen"
+            }
+        },
+        "kickoff": "2024-09-08T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146902,
+            "type": "league",
+            "slug": "3",
+            "number": 3
+        },
+        "spectators": null,
+        "updatedAt": 1721593939,
+        "streamUpdatedAt": 1721593939,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13334661,
+        "slug": "sc-michelbachwald-m1-tsv-kupferzell-m1-240908",
+        "homeTeam": {
+            "id": 1241936,
+            "teamId": 19497,
+            "slug": "sc-michelbachwald-m1-2024-25",
+            "name": {
+                "full": "SC Michelbach\/Wald",
+                "middle": "Michelb.\/Wa.",
+                "short": "SVMW"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/oSAHIyKSKgFj\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sc-michelbachwald-m1-2024-25",
+            "level": 1,
+            "clubSlug": "sc-michelbachwald",
+            "club": {
+                "id": 14817,
+                "name": "SC Michelbach\/Wald",
+                "middleName": "Michelb.\/Wa.",
+                "shortName": "SVMW",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/oSAHIyKSKgFj\/",
+                    "description": "",
+                    "source": "",
+                    "svg": false
+                },
+                "slug": "sc-michelbachwald"
+            }
+        },
+        "awayTeam": {
+            "id": 1241893,
+            "teamId": 19405,
+            "slug": "tsv-kupferzell-m1-2024-25",
+            "name": {
+                "full": "TSV Kupferzell",
+                "middle": "Kupferzell",
+                "short": "TSVK"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/GsyHg1s6Gj0T\/",
+                "description": null,
+                "source": null,
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tsv-kupferzell-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-kupferzell",
+            "club": {
+                "id": 14772,
+                "name": "TSV Kupferzell",
+                "middleName": "Kupferzell",
+                "shortName": "TSVK",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/GsyHg1s6Gj0T\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "tsv-kupferzell"
+            }
+        },
+        "kickoff": "2024-09-08T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146902,
+            "type": "league",
+            "slug": "3",
+            "number": 3
+        },
+        "spectators": null,
+        "updatedAt": 1721593939,
+        "streamUpdatedAt": 1721593939,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13334660,
+        "slug": "tv-niederstetten-m1-tsv-doerzbachklepsau-m1-240908",
+        "homeTeam": {
+            "id": 1241895,
+            "teamId": 19201,
+            "slug": "tv-niederstetten-m1-2024-25",
+            "name": {
+                "full": "TV Niederstetten",
+                "middle": "Niederstett.",
+                "short": "TVN"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/PU8b2zVtQpGS\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tv-niederstetten-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tv-niederstetten",
+            "club": {
+                "id": 14792,
+                "name": "TV Niederstetten",
+                "middleName": "Niederstett.",
+                "shortName": "TVN",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/PU8b2zVtQpGS\/",
+                    "description": "",
+                    "source": "",
+                    "svg": false
+                },
+                "slug": "tv-niederstetten"
+            }
+        },
+        "awayTeam": {
+            "id": 1241932,
+            "teamId": 19191,
+            "slug": "tsv-doerzbachklepsau-m1-2024-25",
+            "name": {
+                "full": "TSV D\u00f6rzbach\/Klepsau",
+                "middle": "D\u00f6rzb.\/Klep.",
+                "short": "TSVDK"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tsv-doerzbachklepsau-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-doerzbachklepsau",
+            "club": {
+                "id": 14793,
+                "name": "TSV D\u00f6rzbach\/Klepsau",
+                "middleName": "D\u00f6rzb.\/Klep.",
+                "shortName": "TSVDK",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/R55ZVd9Domnd\/",
+                    "description": "",
+                    "source": "",
+                    "svg": false
+                },
+                "slug": "tsv-doerzbachklepsau"
+            }
+        },
+        "kickoff": "2024-09-08T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146902,
+            "type": "league",
+            "slug": "3",
+            "number": 3
+        },
+        "spectators": null,
+        "updatedAt": 1721593939,
+        "streamUpdatedAt": 1721593939,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13334659,
+        "slug": "spvgg-apfelbach-herrenzimmern-1975-m1-ssv-gaisbach-m1-240908",
+        "homeTeam": {
+            "id": 1241934,
+            "teamId": 19138,
+            "slug": "spvgg-apfelbach-herrenzimmern-1975-m1-2024-25",
+            "name": {
+                "full": "SpVgg Apfelbach-Herrenzimmern 1975",
+                "middle": "Apfelb.-Her.",
+                "short": "AH"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/vZ1thnuRd7wy\/",
+                "description": null,
+                "source": null,
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/spvgg-apfelbach-herrenzimmern-1975-m1-2024-25",
+            "level": 1,
+            "clubSlug": "spvgg-apfelbach-herrenzimmern-1975",
+            "club": {
+                "id": 14802,
+                "name": "SpVgg Apfelbach-Herrenzimmern 1975",
+                "middleName": "Apfelb.-Her.",
+                "shortName": "AH",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/vZ1thnuRd7wy\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "spvgg-apfelbach-herrenzimmern-1975"
+            }
+        },
+        "awayTeam": {
+            "id": 1241897,
+            "teamId": 20476,
+            "slug": "ssv-gaisbach-m1-2024-25",
+            "name": {
+                "full": "SSV Gaisbach",
+                "middle": "Gaisbach",
+                "short": "SSVG"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/x2Ck1mSzFfQg\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/ssv-gaisbach-m1-2024-25",
+            "level": 1,
+            "clubSlug": "ssv-gaisbach",
+            "club": {
+                "id": 14811,
+                "name": "SSV Gaisbach",
+                "middleName": "Gaisbach",
+                "shortName": "SSVG",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/MzFJlwPUTAxp\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "ssv-gaisbach"
+            }
+        },
+        "kickoff": "2024-09-08T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146902,
+            "type": "league",
+            "slug": "3",
+            "number": 3
+        },
+        "spectators": null,
+        "updatedAt": 1721593939,
+        "streamUpdatedAt": 1721593939,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13334668,
+        "slug": "tsv-doerzbachklepsau-m1-spvgg-apfelbach-herrenzimmern-1975-m1-240913",
+        "homeTeam": {
+            "id": 1241932,
+            "teamId": 19191,
+            "slug": "tsv-doerzbachklepsau-m1-2024-25",
+            "name": {
+                "full": "TSV D\u00f6rzbach\/Klepsau",
+                "middle": "D\u00f6rzb.\/Klep.",
+                "short": "TSVDK"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/8cLsPraDM5ow\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tsv-doerzbachklepsau-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-doerzbachklepsau",
+            "club": {
+                "id": 14793,
+                "name": "TSV D\u00f6rzbach\/Klepsau",
+                "middleName": "D\u00f6rzb.\/Klep.",
+                "shortName": "TSVDK",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/R55ZVd9Domnd\/",
+                    "description": "",
+                    "source": "",
+                    "svg": false
+                },
+                "slug": "tsv-doerzbachklepsau"
+            }
+        },
+        "awayTeam": {
+            "id": 1241934,
+            "teamId": 19138,
+            "slug": "spvgg-apfelbach-herrenzimmern-1975-m1-2024-25",
+            "name": {
+                "full": "SpVgg Apfelbach-Herrenzimmern 1975",
+                "middle": "Apfelb.-Her.",
+                "short": "AH"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/club\/vZ1thnuRd7wy\/",
+                "description": null,
+                "source": null,
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/spvgg-apfelbach-herrenzimmern-1975-m1-2024-25",
+            "level": 1,
+            "clubSlug": "spvgg-apfelbach-herrenzimmern-1975",
+            "club": {
+                "id": 14802,
+                "name": "SpVgg Apfelbach-Herrenzimmern 1975",
+                "middleName": "Apfelb.-Her.",
+                "shortName": "AH",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/vZ1thnuRd7wy\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "spvgg-apfelbach-herrenzimmern-1975"
+            }
+        },
+        "kickoff": "2024-09-13T18:30:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146903,
+            "type": "league",
+            "slug": "4",
+            "number": 4
+        },
+        "spectators": null,
+        "updatedAt": 1721593941,
+        "streamUpdatedAt": 1721593941,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
+    },
+    {
+        "id": 13585640,
+        "slug": "tsv-zweiflingen-m1-sv-mulfingen-m1-240915",
+        "homeTeam": {
+            "id": 1241972,
+            "teamId": 19421,
+            "slug": "tsv-zweiflingen-m1-2024-25",
+            "name": {
+                "full": "TSV Zweiflingen",
+                "middle": "TSV Zweifli.",
+                "short": "TSVZ"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/BLRZO31nYeYO\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/tsv-zweiflingen-m1-2024-25",
+            "level": 1,
+            "clubSlug": "tsv-zweiflingen",
+            "club": {
+                "id": 14770,
+                "name": "TSV Zweiflingen",
+                "middleName": "TSV Zweifli.",
+                "shortName": "TSVZ",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/uvowmZ3Szdrq\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "tsv-zweiflingen"
+            }
+        },
+        "awayTeam": {
+            "id": 1241894,
+            "teamId": 19501,
+            "slug": "sg-sv-mulfingen-hollenbach-m1-2024-25",
+            "name": {
+                "full": "SGM Mulfingen\/Hollenbach",
+                "middle": "SGM Mulfingen\/Hollenbach",
+                "short": "SGM Mulfingen\/Hollenbach"
+            },
+            "image": {
+                "path": "https:\/\/image.fupa.net\/team\/o5Ymb6JuvEyS\/",
+                "description": "",
+                "source": "",
+                "svg": false
+            },
+            "origin": "",
+            "ageGroup": {
+                "slug": "m",
+                "name": "Herren"
+            },
+            "linkUrl": "\/team\/sg-sv-mulfingen-hollenbach-m1-2024-25",
+            "level": 1,
+            "clubSlug": "sv-mulfingen",
+            "club": {
+                "id": 14789,
+                "name": "SV Mulfingen",
+                "middleName": "SV Mulfingen",
+                "shortName": "SVM",
+                "image": {
+                    "path": "https:\/\/image.fupa.net\/club\/Pz9uoOgwvHCv\/",
+                    "description": null,
+                    "source": null,
+                    "svg": false
+                },
+                "slug": "sv-mulfingen"
+            }
+        },
+        "kickoff": "2024-09-15T15:00:00+02:00",
+        "homeGoal": null,
+        "awayGoal": null,
+        "flags": null,
+        "tickerType": null,
+        "section": "PRE",
+        "round": {
+            "id": 2146903,
+            "type": "league",
+            "slug": "4",
+            "number": 4
+        },
+        "spectators": null,
+        "updatedAt": 1723104215,
+        "streamUpdatedAt": 1723104215,
+        "refereeAlias": null,
+        "gallery": null,
+        "tickerReservableUntil": null
     }
 ]

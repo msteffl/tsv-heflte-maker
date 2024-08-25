@@ -7,6 +7,8 @@ import { FussballdeMatches } from "./fussballde-matches";
 import { FupaSpielplanSingle } from "./fupa-spielplan-single";
 import { GamedayService } from "./gameday.service";
 import { FussballdeTorjaeger } from "./fussballde-torjaeger";
+import { FupaGamedayModel } from "./models/fupa-gameday.model";
+import { FupaGameday } from "./fupa-gamdeday";
 
 export const IMAGE_PATH = __dirname + "/images";
 export const OUTPUT_PATH = __dirname + "/output";
@@ -30,6 +32,21 @@ async function run() {
 
   const gameDayService = new GamedayService();
 
+  console.log("Generating Gameday...");
+  const fupaGameday: FupaGameday = new FupaGameday("erste");
+  const gamedayErste = await fupaGameday.create()
+  const gamedayErsteParser = new Parser(csvOptions);
+  const gamedayErsteCsv = gamedayErsteParser.parse(gamedayErste);
+  const gamedayErstePath = OUTPUT_PATH + "/ErsteBegegnungen.txt";
+  Fs.writeFileSync(gamedayErstePath, gamedayErsteCsv);
+
+  const fupaGamedayZweite: FupaGameday = new FupaGameday("zweite");
+  const gamedayZweite = await fupaGamedayZweite.create()
+  const gamedayZweiteParser = new Parser(csvOptions);
+  const gamedayZweiteCsv = gamedayZweiteParser.parse(gamedayZweite);
+  const gamedayZweitePath = OUTPUT_PATH + "/ZweiteBegegnungen.txt";
+  Fs.writeFileSync(gamedayZweitePath, gamedayZweiteCsv);
+
   console.log("Generating Spielplan...");
 
   const fupaSpielplanErste: FupaSpielplanSingle = new FupaSpielplanSingle("erste");
@@ -46,11 +63,11 @@ async function run() {
   const pathZweite = OUTPUT_PATH + "/ZweiteSpielplan.txt";
   Fs.writeFileSync(pathZweite, csvZweite);
 
-  console.log(
-    gameDayService.gamedayNumber,
-    gameDayService.timeErste,
-    gameDayService.timeZweite
-  );
+  // console.log(
+  //   gameDayService.gamedayNumber,
+  //   gameDayService.timeErste,
+  //   gameDayService.timeZweite
+  // );
 
   console.log("Generating Statistics...");
 
@@ -86,27 +103,27 @@ async function run() {
 
   console.log("Generating Matches...");
 
-  const fussballdeMatchesErste: FussballdeMatches = new FussballdeMatches(
-    "erste",
-    gameDayService.gamedayNumber,
-    gameDayService.timeErste
-  );
-  const matchesErste = await fussballdeMatchesErste.create()
-  const matchesErsteParser = new Parser(csvOptions);
-  const matchesErsteCsv = matchesErsteParser.parse(matchesErste);
-  const matchesErstePath = OUTPUT_PATH + "/ErsteBegegnungen.txt";
-  Fs.writeFileSync(matchesErstePath, matchesErsteCsv);
+  // const fussballdeMatchesErste: FussballdeMatches = new FussballdeMatches(
+  //   "erste",
+  //   gameDayService.gamedayNumber,
+  //   gameDayService.timeErste
+  // );
+  // const matchesErste = await fussballdeMatchesErste.create()
+  // const matchesErsteParser = new Parser(csvOptions);
+  // const matchesErsteCsv = matchesErsteParser.parse(matchesErste);
+  // const matchesErstePath = OUTPUT_PATH + "/ErsteBegegnungen.txt";
+  // Fs.writeFileSync(matchesErstePath, matchesErsteCsv);
 
-  const fussballdeMatchesZweite: FussballdeMatches = new FussballdeMatches(
-    "zweite",
-    gameDayService.gamedayNumber,
-    gameDayService.timeZweite
-  );
-  const matchesZweite = await fussballdeMatchesZweite.create()
-  const matchesZweiteParser = new Parser(csvOptions);
-  const matchesZweiteCsv = matchesZweiteParser.parse(matchesZweite);
-  const matchesZweitePath = OUTPUT_PATH + "/ZweiteBegegnungen.txt";
-  Fs.writeFileSync(matchesZweitePath, matchesZweiteCsv);
+  // const fussballdeMatchesZweite: FussballdeMatches = new FussballdeMatches(
+  //   "zweite",
+  //   gameDayService.gamedayNumber,
+  //   gameDayService.timeZweite
+  // );
+  // const matchesZweite = await fussballdeMatchesZweite.create()
+  // const matchesZweiteParser = new Parser(csvOptions);
+  // const matchesZweiteCsv = matchesZweiteParser.parse(matchesZweite);
+  // const matchesZweitePath = OUTPUT_PATH + "/ZweiteBegegnungen.txt";
+  // Fs.writeFileSync(matchesZweitePath, matchesZweiteCsv);
 
   console.log("Generating Torjäger...")
 
