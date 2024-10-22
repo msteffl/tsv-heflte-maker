@@ -9,9 +9,10 @@ import { GamedayService } from "./gameday.service";
 import { FussballdeTorjaeger } from "./fussballde-torjaeger";
 import { FupaGamedayModel } from "./models/fupa-gameday.model";
 import { FupaGameday } from "./fupa-gamdeday";
+import { FupaTorjaeger } from "./fupa-torjaeger";
 
-export const IMAGE_PATH = __dirname + "/images";
-export const OUTPUT_PATH = __dirname + "/output";
+export const IMAGE_PATH = "G:\\Meine Ablage\\TSV\\Heftle\\Automatisierung" + "\\images";
+export const OUTPUT_PATH = "G:\\Meine Ablage\\TSV\\Heftle\\Automatisierung";
 
 run()
 
@@ -29,6 +30,15 @@ async function run() {
   if(!Fs.existsSync(IMAGE_PATH)) {
     Fs.mkdirSync(IMAGE_PATH);
   }
+
+  console.log("Generating Torjäger...")
+
+  const fupaTorjaeger: FupaTorjaeger = new FupaTorjaeger("erste");
+  const torjaegerErste = await fupaTorjaeger.create()
+  const parserTorjaeger = new Parser(csvOptions);
+  const csvTorjaeger = parserTorjaeger.parse(torjaegerErste);
+  const pathTorjaeger = OUTPUT_PATH + "/ErsteTorjaeger.txt";
+  Fs.writeFileSync(pathTorjaeger, csvTorjaeger);
 
   const gameDayService = new GamedayService();
 
@@ -101,8 +111,6 @@ async function run() {
   const tableZweitePath = OUTPUT_PATH + "/ZweiteTabelle.txt";
   Fs.writeFileSync(tableZweitePath, tableZweiteCsv);
 
-  console.log("Generating Matches...");
-
   // const fussballdeMatchesErste: FussballdeMatches = new FussballdeMatches(
   //   "erste",
   //   gameDayService.gamedayNumber,
@@ -125,14 +133,15 @@ async function run() {
   // const matchesZweitePath = OUTPUT_PATH + "/ZweiteBegegnungen.txt";
   // Fs.writeFileSync(matchesZweitePath, matchesZweiteCsv);
 
-  console.log("Generating Torjäger...")
 
-  const fussballdeTorjaeger = new FussballdeTorjaeger("erste");
+
+
+/*   const fussballdeTorjaeger = new FussballdeTorjaeger("erste");
   const torjaegerErste = await  fussballdeTorjaeger.create()
   const torjaegerErsteParser = new Parser(csvOptions);
   const torjaegerErsteCsv = torjaegerErsteParser.parse(torjaegerErste);
   const torjaegerErstePath = OUTPUT_PATH + "/ErsteTorjaeger.txt";
-  Fs.writeFileSync(torjaegerErstePath, torjaegerErsteCsv);
+  Fs.writeFileSync(torjaegerErstePath, torjaegerErsteCsv); */
 
   console.log("Done!!");
 };
